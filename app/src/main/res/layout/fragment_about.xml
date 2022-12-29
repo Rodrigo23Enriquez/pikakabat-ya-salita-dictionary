@@ -3,11 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Fragment.Fragment_About">
+    tools:context=".Fragment.Fragment_About"
+    android:background="#193946">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/inside_logo" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+            android:text="Pikakabat Ya Salita is a dictionary that aims to help the users gain extensive and basic knowledge of the Pangasinan dialect and trivia."
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/archivo"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:text="Pikakabat Ya Salita is a dictionary that aims to help the users gain extensive and basic knowledge of the Pangasinan dialect and trivia."
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/archivo"
+        android:textSize="18dp"/>
 
 </FrameLayout>

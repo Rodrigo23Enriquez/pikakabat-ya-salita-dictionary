@@ -7,6 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PikakabatYaSalitaDictionary.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PikakabatYaSalitaDictionary.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PikakabatYaSalitaDictionary.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PikakabatYaSalitaDictionary.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PikakabatYaSalitaDictionary.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PikakabatYaSalitaDictionary.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.iml" filepath="$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/applicationDriver/PikakabatYaSalitaDictionary.applicationDriver.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/PikakabatYaSalitaDictionary.dictionary.unitTest.iml" />
     </modules>
   </component>
 </project>

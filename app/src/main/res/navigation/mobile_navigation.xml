@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.pikakabatyasalitadictionary.Activity.Fragment.Fragment_Dashboard"
+        android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_Dashboard"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_dashboard" />
 
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.example.pikakabatyasalitadictionary.Activity.Fragment.Fragment_About"
+        android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_About"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_about" />
 </navigation>

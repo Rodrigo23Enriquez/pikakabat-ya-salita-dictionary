@@ -3,11 +3,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Fragment.Fragment_Dashboard">
+    tools:context=".Fragment.Fragment_Dashboard"
+    android:background="#193946">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/inside_logo" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:id="@+id/pangeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/archivo"
+        android:text="Pangasinan - English"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/dic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="345dp"
+        android:fontFamily="@font/archivo"
+        android:text="Dictionary"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btnsearchbck"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:fontFamily="@font/archivo"
+        android:padding="10dp"
+        android:text="Search"
+        android:textColor="#FF7A1D"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/trivia" />
 
 </FrameLayout>
