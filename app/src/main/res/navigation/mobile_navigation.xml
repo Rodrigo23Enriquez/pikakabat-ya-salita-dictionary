@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_pang2eng"
-        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_Wordlist"
+        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
         android:label="@string/menu_pang2eng"
         tools:layout="@layout/fragment_word_list" />
 
     <fragment
         android:id="@+id/nav_eng2pang"
-        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_Wordlist"
+        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
         android:label="@string/menu_eng2pang"
         tools:layout="@layout/fragment_word_list" />
 

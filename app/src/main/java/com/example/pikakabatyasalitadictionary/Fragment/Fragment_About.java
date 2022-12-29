@@ -29,11 +29,4 @@ public class Fragment_About extends Fragment {
         mViewModel = new ViewModelProvider(this).get(VMAbout.class);
         return inflater.inflate(R.layout.fragment_about, container, false);
     }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        // TODO: Use the ViewModel
-    }
-
 }
