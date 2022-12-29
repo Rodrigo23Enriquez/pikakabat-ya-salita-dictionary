@@ -30,200 +30,201 @@
 20-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
 21-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:12:9-35
-22        android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
-22-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:13:9-65
-23        <activity
-23-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:15:9-21:20
-24            android:name="com.example.pikakabatyasalitadictionary.MainActivity"
-24-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:16:13-41
-25            android:exported="false" >
-25-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:9-30:20
-31            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_Home"
-31-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:13-51
-32            android:exported="false"
-32-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:13-37
-33            android:label="@string/title_activity_home"
-33-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:25:13-56
-34            android:theme="@style/Theme.PikakabatYaSalitaDictionary.NoActionBar" >
-34-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:26:13-81
-35            <meta-data
-35-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
-36                android:name="android.app.lib_name"
-36-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
-37                android:value="" />
-37-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
-38        </activity>
-39        <activity
-39-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:31:9-34:56
-40            android:name="com.example.pikakabatyasalitadictionary.PangtoEnglishDiscription"
-40-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:32:13-53
-41            android:exported="false"
-41-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:33:13-37
-42            android:parentActivityName="com.example.pikakabatyasalitadictionary.Dictionary" />
-42-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:34:13-53
-43        <activity
-43-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:35:9-37:40
-44            android:name="com.example.pikakabatyasalitadictionary.SavedWords"
-44-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:36:13-39
-45            android:exported="false" />
-45-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:37:13-37
-46        <activity
-46-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:38:9-40:40
-47            android:name="com.example.pikakabatyasalitadictionary.Recent"
-47-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:39:13-35
-48            android:exported="false" />
-48-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:40:13-37
-49        <activity
-49-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:41:9-43:40
-50            android:name="com.example.pikakabatyasalitadictionary.TriviaInPangasinan"
-50-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:42:13-47
-51            android:exported="false" />
-51-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:43:13-37
-52        <activity
-52-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:44:9-46:40
-53            android:name="com.example.pikakabatyasalitadictionary.Dictionary"
-53-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:45:13-39
-54            android:exported="false" />
-54-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:46:13-37
-55        <activity
-55-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:47:9-50:47
-56            android:name="com.example.pikakabatyasalitadictionary.About"
-56-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:48:13-34
-57            android:exported="false"
-57-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:49:13-37
-58            android:launchMode="singleTask" />
-58-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:50:13-44
-59        <activity
-59-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:51:9-54:47
-60            android:name="com.example.pikakabatyasalitadictionary.Dashboard"
-60-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:52:13-38
-61            android:exported="false"
-61-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:53:13-37
-62            android:launchMode="singleTask" />
-62-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:54:13-44
-63        <activity
-63-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:55:9-63:20
-64            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_SplashScreen"
-64-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:56:13-59
-65            android:exported="true" >
-65-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:57:13-36
-66            <intent-filter>
-66-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:58:13-62:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:59:17-69
-67-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:59:25-66
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-69-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:61:17-77
-69-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:61:27-74
-70            </intent-filter>
-71        </activity>
-72
-73        <meta-data
-73-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:65:9-67:70
-74            android:name="com.google.android.gms.ads.APPLICATION_ID"
-74-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:66:13-69
-75            android:value="ca-app-pub-################~##########" />
-75-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:67:13-67
-76        <meta-data
-76-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:68:9-70:57
-77            android:name="preloaded_fonts"
-77-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:69:13-43
-78            android:resource="@array/preloaded_fonts" />
-78-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:70:13-54
-79
-80        <activity
-80-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-16:20
-81            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription"
-81-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-101
-82            android:exported="false" >
-82-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
-83            <meta-data
-83-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
-84                android:name="android.app.lib_name"
-84-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
-85                android:value="" />
-85-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
-86        </activity>
-87        <activity
-87-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-23:20
-88            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
-88-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-92
-89            android:exported="false" >
-89-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
-90            <meta-data
-90-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
-91                android:name="android.app.lib_name"
-91-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
-92                android:value="" />
-92-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
-93        </activity>
-94        <activity
-94-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-30:20
-95            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordList"
-95-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-94
-96            android:exported="false" >
-96-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
-97            <meta-data
-97-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
-98                android:name="android.app.lib_name"
-98-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
-99                android:value="" />
-99-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
-100        </activity>
-101
-102        <provider
-102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-103            android:name="androidx.startup.InitializationProvider"
-103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-104            android:authorities="com.example.pikakabatyasalitadictionary.androidx-startup"
-104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-105            android:exported="false" >
-105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-106            <meta-data
-106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-108                android:value="androidx.startup" />
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-109            <meta-data
-109-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-110-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-111                android:value="androidx.startup" />
-111-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-112        </provider>
-113
-114        <uses-library
-114-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-115            android:name="androidx.window.extensions"
-115-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-116            android:required="false" />
-116-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-117        <uses-library
-117-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-118            android:name="androidx.window.sidecar"
-118-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-119            android:required="false" />
-119-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-120
-121        <service
-121-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
-122            android:name="androidx.room.MultiInstanceInvalidationService"
-122-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
-123            android:directBootAware="true"
-123-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
-124            android:exported="false" />
-124-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
-125    </application>
-126
-127</manifest>
+22        android:testOnly="true"
+23        android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
+23-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:13:9-65
+24        <activity
+24-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:15:9-21:20
+25            android:name="com.example.pikakabatyasalitadictionary.MainActivity"
+25-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:16:13-41
+26            android:exported="false" >
+26-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:17:13-37
+27            <meta-data
+27-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
+28                android:name="android.app.lib_name"
+28-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
+29                android:value="" />
+29-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
+30        </activity>
+31        <activity
+31-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:9-30:20
+32            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_Home"
+32-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:13-51
+33            android:exported="false"
+33-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:13-37
+34            android:label="@string/title_activity_home"
+34-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:25:13-56
+35            android:theme="@style/Theme.PikakabatYaSalitaDictionary.NoActionBar" >
+35-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:26:13-81
+36            <meta-data
+36-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
+37                android:name="android.app.lib_name"
+37-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
+38                android:value="" />
+38-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
+39        </activity>
+40        <activity
+40-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:31:9-34:56
+41            android:name="com.example.pikakabatyasalitadictionary.PangtoEnglishDiscription"
+41-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:32:13-53
+42            android:exported="false"
+42-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:33:13-37
+43            android:parentActivityName="com.example.pikakabatyasalitadictionary.Dictionary" />
+43-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:34:13-53
+44        <activity
+44-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:35:9-37:40
+45            android:name="com.example.pikakabatyasalitadictionary.SavedWords"
+45-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:36:13-39
+46            android:exported="false" />
+46-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:37:13-37
+47        <activity
+47-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:38:9-40:40
+48            android:name="com.example.pikakabatyasalitadictionary.Recent"
+48-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:39:13-35
+49            android:exported="false" />
+49-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:40:13-37
+50        <activity
+50-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:41:9-43:40
+51            android:name="com.example.pikakabatyasalitadictionary.TriviaInPangasinan"
+51-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:42:13-47
+52            android:exported="false" />
+52-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:43:13-37
+53        <activity
+53-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:44:9-46:40
+54            android:name="com.example.pikakabatyasalitadictionary.Dictionary"
+54-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:45:13-39
+55            android:exported="false" />
+55-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:46:13-37
+56        <activity
+56-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:47:9-50:47
+57            android:name="com.example.pikakabatyasalitadictionary.About"
+57-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:48:13-34
+58            android:exported="false"
+58-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:49:13-37
+59            android:launchMode="singleTask" />
+59-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:50:13-44
+60        <activity
+60-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:51:9-54:47
+61            android:name="com.example.pikakabatyasalitadictionary.Dashboard"
+61-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:52:13-38
+62            android:exported="false"
+62-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:53:13-37
+63            android:launchMode="singleTask" />
+63-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:54:13-44
+64        <activity
+64-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:55:9-63:20
+65            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_SplashScreen"
+65-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:56:13-59
+66            android:exported="true" >
+66-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:57:13-36
+67            <intent-filter>
+67-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:58:13-62:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:59:17-69
+68-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:59:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:61:17-77
+70-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:61:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <meta-data
+74-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:65:9-67:70
+75            android:name="com.google.android.gms.ads.APPLICATION_ID"
+75-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:66:13-69
+76            android:value="ca-app-pub-################~##########" />
+76-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:67:13-67
+77        <meta-data
+77-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:68:9-70:57
+78            android:name="preloaded_fonts"
+78-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:69:13-43
+79            android:resource="@array/preloaded_fonts" />
+79-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:70:13-54
+80
+81        <activity
+81-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-16:20
+82            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription"
+82-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-101
+83            android:exported="false" >
+83-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+84            <meta-data
+84-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
+85                android:name="android.app.lib_name"
+85-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
+86                android:value="" />
+86-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
+87        </activity>
+88        <activity
+88-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-23:20
+89            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
+89-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-92
+90            android:exported="false" >
+90-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+91            <meta-data
+91-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
+92                android:name="android.app.lib_name"
+92-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
+93                android:value="" />
+93-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
+94        </activity>
+95        <activity
+95-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-30:20
+96            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordList"
+96-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-94
+97            android:exported="false" >
+97-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+98            <meta-data
+98-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:13-20:36
+99                android:name="android.app.lib_name"
+99-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:17-52
+100                android:value="" />
+100-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:17-33
+101        </activity>
+102
+103        <provider
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+105            android:authorities="com.example.pikakabatyasalitadictionary.androidx-startup"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+106            android:exported="false" >
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+107            <meta-data
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+109                android:value="androidx.startup" />
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+112                android:value="androidx.startup" />
+112-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+113        </provider>
+114
+115        <uses-library
+115-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+116            android:name="androidx.window.extensions"
+116-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+118        <uses-library
+118-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+119            android:name="androidx.window.sidecar"
+119-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+121
+122        <service
+122-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+123            android:name="androidx.room.MultiInstanceInvalidationService"
+123-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+124            android:directBootAware="true"
+124-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+125            android:exported="false" />
+125-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+126    </application>
+127
+128</manifest>

@@ -12,9 +12,9 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.DWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Entity.EBookmarkWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
-import org.sticollegeandroidprojects.applicationdriver.database.Entity.ERecentWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EBookmarkWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
 
 @Database(entities = {
         EDictionaryWords.class,

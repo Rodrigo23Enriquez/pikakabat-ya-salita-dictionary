@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.pikakabatyasalitadictionary.Activity.Fragment.Fragment_Dashboard"
+        android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_Dashboard"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/nav_pang2eng"
-        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_Wordlist"
+        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
         android:label="@string/menu_pang2eng"
         tools:layout="@layout/fragment_word_list" />
 
     <fragment
         android:id="@+id/nav_eng2pang"
-        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_Wordlist"
+        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
         android:label="@string/menu_eng2pang"
         tools:layout="@layout/fragment_word_list" />
 
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.example.pikakabatyasalitadictionary.Activity.Fragment.Fragment_About"
+        android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_About"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_about" />
 </navigation>

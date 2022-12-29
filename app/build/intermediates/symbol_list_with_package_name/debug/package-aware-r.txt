@@ -3397,7 +3397,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_about
+layout fragment_bookmarks
 layout fragment_dashboard
+layout fragment_recent_words
 layout fragment_word_list
 layout item_drawer_main
 layout m3_alert_dialog

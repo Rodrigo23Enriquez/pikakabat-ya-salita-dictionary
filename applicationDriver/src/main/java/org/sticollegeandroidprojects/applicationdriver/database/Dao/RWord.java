@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Entity.ERecentWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
 
 import java.util.List;
 
@@ -19,6 +19,17 @@ public interface RWord {
     @Update
     void Update(ERecentWord args);
 
-    @Query("SELECT * FROM Recent_Words")
-    LiveData<List<ERecentWord>> GetWordList();
+    @Query("SELECT " +
+            "a.sWordIDxx, " +
+            "b.sWordName " +
+            "FROM Recent_Words a " +
+            "LEFT JOIN Dictionary_Words b " +
+            "ON a.sWordIDxx = b.sWordIDxx " +
+            "ORDER BY dTimeStmp DESC")
+    LiveData<List<RecentWord>> GetWordList();
+
+    class RecentWord{
+        public String WordIDxx;
+        public String WordName;
+    }
 }

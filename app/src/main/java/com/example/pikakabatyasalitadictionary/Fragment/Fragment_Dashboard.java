@@ -1,4 +1,4 @@
-package com.example.pikakabatyasalitadictionary.Activity.Fragment;
+package com.example.pikakabatyasalitadictionary.Fragment;
 
 import androidx.lifecycle.ViewModelProvider;
 
