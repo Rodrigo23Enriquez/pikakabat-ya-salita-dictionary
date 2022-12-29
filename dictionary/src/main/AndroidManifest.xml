@@ -3,21 +3,21 @@
 
     <application>
         <activity
-            android:name=".ActivityWordDescription"
+            android:name=".Activity.ActivityWordDescription"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ActivitySearch"
+            android:name=".Activity.ActivitySearch"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ActivityWordList"
+            android:name=".Activity.ActivityWordList"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

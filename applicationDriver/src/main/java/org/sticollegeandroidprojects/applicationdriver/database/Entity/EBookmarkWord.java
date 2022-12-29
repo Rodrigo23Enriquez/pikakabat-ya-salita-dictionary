@@ -5,7 +5,7 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Etc.Constants;
+import org.sticollegeandroidprojects.applicationdriver.Etc.Constants;
 
 @Entity(tableName = "Bookmarked_Words")
 public class EBookmarkWord {

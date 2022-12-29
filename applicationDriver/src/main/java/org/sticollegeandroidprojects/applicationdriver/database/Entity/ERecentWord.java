@@ -5,9 +5,9 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Etc.Constants;
+import org.sticollegeandroidprojects.applicationdriver.Etc.Constants;
 
-@Entity(tableName = "Dictionary_Words")
+@Entity(tableName = "Recent_Words")
 public class ERecentWord {
 
     @NonNull
