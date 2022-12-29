@@ -26,14 +26,7 @@ public class Fragment_Bookmarks extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+        mViewModel = new ViewModelProvider(this).get(VMBookmarks.class);
         return inflater.inflate(R.layout.fragment_bookmarks, container, false);
     }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(VMBookmarks.class);
-        // TODO: Use the ViewModel
-    }
-
 }

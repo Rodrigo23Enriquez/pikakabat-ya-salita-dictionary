@@ -13,11 +13,11 @@ public interface FactoryPYSD {
     boolean Save(Object args);
     boolean SaveWord(String args);
     boolean Delete(String args);
-    LiveData<List<EDictionaryWords>> SearchWordList(String args);
-    LiveData<List<EDictionaryWords>> GetWordsList(String args);
-    LiveData<List<BWord.Bookmark>> GetBookmarkList(String args);
-    LiveData<List<RWord.RecentWord>> GetRecents();
-    LiveData<EDictionaryWords> GetWordDetail(String args);
+    LiveData<List<EDictionaryWords>> SearchWordList(String args); //For Dictionary Only
+    LiveData<List<EDictionaryWords>> GetWordsList(String args); //For Dictionary Only
+    LiveData<List<BWord.Bookmark>> GetBookmarkList(String args); //For Bookmark Only
+    LiveData<List<RWord.RecentWord>> GetRecents(); //For Recent Only
+    LiveData<EDictionaryWords> GetWordDetail(String args); //For Dictionary Only
 
     String getMessage();
 }
