@@ -12,10 +12,12 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
+    <string name="menu_trivia">Pangasinan Trivia</string>
     <string name="menu_pang2eng">Pangasinan - English</string>
     <string name="menu_eng2pang">English - Pangasinan</string>
     <string name="menu_dictionary">Dictionary</string>
     <string name="menu_recent">Recent</string>
     <string name="menu_bookmarks">Favorite</string>
+    <string name="menu_system">System</string>
     <string name="menu_about">About</string>
 </resources>

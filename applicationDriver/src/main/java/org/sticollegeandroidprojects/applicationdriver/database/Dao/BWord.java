@@ -7,6 +7,7 @@ import androidx.room.Query;
 import androidx.room.Update;
 
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EBookmarkWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
 
 import java.util.List;
 
@@ -19,8 +20,17 @@ public interface BWord {
     @Update
     void Update(EBookmarkWord args);
 
+    @Insert
+    void Save(ERecentWord args);
+
+    @Update
+    void Update(ERecentWord args);
+
     @Query("DELETE FROM Bookmarked_Words WHERE sWordIDxx=:args")
     void Delete(String args);
+
+    @Query("SELECT * FROM Recent_Words WHERE sWordIDxx=:args")
+    ERecentWord GetRecent(String args);
 
     @Query("SELECT * FROM Bookmarked_Words WHERE sWordIDxx=:args")
     EBookmarkWord GetBookmark(String args);
@@ -31,8 +41,9 @@ public interface BWord {
             "FROM Bookmarked_Words a " +
             "LEFT JOIN Dictionary_Words b " +
             "ON a.sWordIDxx = b.sWordIDxx " +
+            "WHERE b.nDctnryTp =:args " +
             "ORDER BY a.dTimeStmp DESC")
-    LiveData<List<Bookmark>> GetRecentlyBookmarked();
+    LiveData<List<Bookmark>> GetRecentlyBookmarked(int args);
 
     @Query("SELECT " +
             "a.sWordIDxx, " +
@@ -40,11 +51,12 @@ public interface BWord {
             "FROM Bookmarked_Words a " +
             "LEFT JOIN Dictionary_Words b " +
             "ON a.sWordIDxx = b.sWordIDxx " +
+            "WHERE b.nDctnryTp =:args " +
             "ORDER BY b.sWordName ASC")
-    LiveData<List<Bookmark>> GetBookmarkedAlphabetical();
+    LiveData<List<Bookmark>> GetBookmarkedAlphabetical(int args);
 
     class Bookmark{
-        public String WordIDxx;
-        public String WordName;
+        public String sWordIDxx;
+        public String sWordName;
     }
 }

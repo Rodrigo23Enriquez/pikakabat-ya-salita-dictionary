@@ -9,19 +9,39 @@
         android:id="@+id/nav_home"
         android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_Dashboard"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard">
 
-    <fragment
-        android:id="@+id/nav_pang2eng"
-        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
-        android:label="@string/menu_pang2eng"
-        tools:layout="@layout/fragment_word_list" />
+    </fragment>
 
-    <fragment
-        android:id="@+id/nav_eng2pang"
-        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
-        android:label="@string/menu_eng2pang"
-        tools:layout="@layout/fragment_word_list" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_trivia"-->
+<!--        android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia"-->
+<!--        android:label="@string/menu_trivia"-->
+<!--        tools:layout="@layout/fragment_trivia" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_pang2eng"-->
+<!--        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"-->
+<!--        android:label="@string/menu_pang2eng"-->
+<!--        tools:layout="@layout/fragment_word_list">-->
+
+<!--        <argument android:name="instance"-->
+<!--            app:argType="integer"-->
+<!--            android:defaultValue="0"/>-->
+
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_eng2pang"-->
+<!--        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"-->
+<!--        android:label="@string/menu_eng2pang"-->
+<!--        tools:layout="@layout/fragment_word_list">-->
+
+<!--        <argument android:name="instance"-->
+<!--            app:argType="integer"-->
+<!--            android:defaultValue="1"/>-->
+
+<!--    </fragment>-->
 
     <fragment
         android:id="@+id/nav_recent"

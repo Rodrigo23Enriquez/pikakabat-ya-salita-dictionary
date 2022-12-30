@@ -16,6 +16,10 @@ public class EDictionaryWords {
     private String WordIDxx;
     @ColumnInfo(name = "sWordName")
     private String WordName = "";
+    @ColumnInfo(name = "sPrnction")
+    private String Prnction = "";
+    @ColumnInfo(name = "sWordType")
+    private String WordType = "";
     @ColumnInfo(name = "sDescript")
     private String Descript = "";
     @ColumnInfo(name = "sTransLte")
@@ -26,6 +30,8 @@ public class EDictionaryWords {
     private String Triviaxx = "";
     @ColumnInfo(name = "sInfoxxxx")
     private String Infoxxxx = "";
+    @ColumnInfo(name = "nDctnryTp")
+    private Integer DctnryTp = 0;
     @ColumnInfo(name = "dModified")
     private String Modified = "";
     @ColumnInfo(name = "dTimeStmp")
@@ -106,4 +112,29 @@ public class EDictionaryWords {
     public void setTimeStmp(String timeStmp) {
         TimeStmp = timeStmp;
     }
+
+    public String getPrnction() {
+        return Prnction;
+    }
+
+    public void setPrnction(String prnction) {
+        Prnction = prnction;
+    }
+
+    public String getWordType() {
+        return WordType;
+    }
+
+    public void setWordType(String wordType) {
+        WordType = wordType;
+    }
+
+    public Integer getDctnryTp() {
+        return DctnryTp;
+    }
+
+    public void setDctnryTp(Integer dctnryTp) {
+        DctnryTp = dctnryTp;
+    }
+
 }

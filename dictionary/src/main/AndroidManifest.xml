@@ -3,6 +3,13 @@
 
     <application>
         <activity
+            android:name=".Activity.Activity_Trivia"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Activity.ActivityWordDescription"
             android:exported="false">
             <meta-data
@@ -17,7 +24,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activity.ActivityWordList"
+            android:name=".Activity.Activity_WordList"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
