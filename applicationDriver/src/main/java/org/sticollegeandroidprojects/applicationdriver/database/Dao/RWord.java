@@ -19,17 +19,24 @@ public interface RWord {
     @Update
     void Update(ERecentWord args);
 
+    @Query("DELETE FROM Recent_Words WHERE sWordIDxx=:args")
+    void Delete(String args);
+
+    @Query("SELECT * FROM Recent_Words WHERE sWordIDxx=:args")
+    ERecentWord GetRecent(String args);
+
     @Query("SELECT " +
             "a.sWordIDxx, " +
             "b.sWordName " +
             "FROM Recent_Words a " +
             "LEFT JOIN Dictionary_Words b " +
             "ON a.sWordIDxx = b.sWordIDxx " +
-            "ORDER BY dTimeStmp DESC")
-    LiveData<List<RecentWord>> GetWordList();
+            "WHERE b.nDctnryTp =:args " +
+            "ORDER BY a.dTimeStmp DESC")
+    LiveData<List<RecentWord>> GetWordList(int args);
 
     class RecentWord{
-        public String WordIDxx;
-        public String WordName;
+        public String sWordIDxx;
+        public String sWordName;
     }
 }

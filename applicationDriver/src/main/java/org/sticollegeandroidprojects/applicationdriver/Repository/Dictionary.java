@@ -11,6 +11,7 @@ import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.DWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EBookmarkWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 
 import java.text.SimpleDateFormat;
@@ -48,7 +49,39 @@ public class Dictionary implements FactoryPYSD{
             loDetail.setWordIDxx(lsTransNox);
             loDetail.setModified(new Constants().DATE_MODIFIED);
             poDao.Save(loDetail);
+            message = "New record saved!";
             return true;
+        } catch (Exception e){
+            e.printStackTrace();
+            message = e.getMessage();
+            return false;
+        }
+    }
+
+    @Override
+    public boolean SaveRecent(String args) {
+        try{
+            String WordID = args;
+
+            ERecentWord loDetail = poDao.GetRecent(WordID);
+
+            if(loDetail == null){
+                ERecentWord loWord = new ERecentWord();
+                loWord.setWordIDxx(WordID);
+                loWord.setInfoxxxx("");
+                loWord.setModified(new Constants().DATE_MODIFIED);
+                poDao.Save(loWord);
+
+                Log.d(TAG, "A new bookmark has been saved!");
+                return true;
+            }
+
+            loDetail.setModified(new Constants().DATE_MODIFIED);
+            loDetail.setTimeStmp(new Constants().DATE_MODIFIED);
+            poDao.Update(loDetail);
+
+            message = "Word is already saved!";
+            return false;
         } catch (Exception e){
             e.printStackTrace();
             message = e.getMessage();
@@ -90,26 +123,28 @@ public class Dictionary implements FactoryPYSD{
     }
 
     @Override
-    public LiveData<List<EDictionaryWords>> SearchWordList(String args) {
-        return poDao.GetWordList(args);
+    public LiveData<List<EDictionaryWords>> SearchWordList(int params, String args) {
+        return poDao.GetWordList(params);
     }
 
     @Override
-    public LiveData<List<EDictionaryWords>> GetWordsList(String args) {
-        if (args.equalsIgnoreCase("DESC")){
-            return poDao.GetWordListSortDescending();
-        }
-        return poDao.GetWordListSortAscending();
+    public LiveData<List<EDictionaryWords>> GetWordsList(int params) {
+        return poDao.GetWordList(params);
     }
 
     @Override
-    public LiveData<List<BWord.Bookmark>> GetBookmarkList(String args) {
+    public LiveData<BWord.Bookmark> GetBookmark(String args) {
+        return poDao.GetBookmarkWord(args);
+    }
+
+    @Override
+    public LiveData<List<BWord.Bookmark>> GetBookmarkList(int params, String args) {
         return null;
     }
 
     @Override
-    public LiveData<List<RWord.RecentWord>> GetRecents() {
-        return null;
+    public LiveData<List<RWord.RecentWord>> GetRecents(int params) {
+        return poDao.GetRecentList(params);
     }
 
     @Override
@@ -126,7 +161,7 @@ public class Dictionary implements FactoryPYSD{
         try{
             String lsUniqIDx = "";
             try{
-                String lsBranchCd = "MX01";
+                String lsBranchCd = "PSYD";
                 String lsCrrYear = new SimpleDateFormat("yy", Locale.getDefault()).format(new Date());
                 StringBuilder loBuilder = new StringBuilder(lsBranchCd);
                 loBuilder.append(lsCrrYear);

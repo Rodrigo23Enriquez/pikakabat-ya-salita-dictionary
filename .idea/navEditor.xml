@@ -53,6 +53,15 @@
                             <option name="y" value="2" />
                           </Point>
                         </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_nav_home_to_nav_trivia">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                       </LayoutPositions>
                     </value>
                   </entry>
@@ -61,8 +70,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="496" />
-                            <option name="y" value="6" />
+                            <option name="x" value="433" />
+                            <option name="y" value="42" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -75,6 +84,18 @@
                           <Point>
                             <option name="x" value="214" />
                             <option name="y" value="2" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_trivia">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="17" />
+                            <option name="y" value="416" />
                           </Point>
                         </option>
                       </LayoutPositions>
