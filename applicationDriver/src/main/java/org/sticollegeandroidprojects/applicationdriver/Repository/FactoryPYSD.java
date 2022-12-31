@@ -3,7 +3,7 @@ package org.sticollegeandroidprojects.applicationdriver.Repository;
 import androidx.lifecycle.LiveData;
 
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 
 import java.util.List;

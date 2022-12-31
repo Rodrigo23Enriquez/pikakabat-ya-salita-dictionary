@@ -3,7 +3,16 @@
 
     <application>
         <activity
+            android:name=".Activity.Activity_MoreTrivia"
+            android:screenOrientation="userPortrait"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Activity.Activity_Trivia"
+            android:screenOrientation="userPortrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -11,6 +20,7 @@
         </activity>
         <activity
             android:name=".Activity.ActivityWordDescription"
+            android:screenOrientation="userPortrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -18,6 +28,7 @@
         </activity>
         <activity
             android:name=".Activity.ActivitySearch"
+            android:screenOrientation="userPortrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -25,6 +36,7 @@
         </activity>
         <activity
             android:name=".Activity.Activity_WordList"
+            android:screenOrientation="userPortrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

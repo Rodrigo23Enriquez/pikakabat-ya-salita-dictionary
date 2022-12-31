@@ -9,9 +9,9 @@ import org.sticollegeandroidprojects.applicationdriver.Etc.Constants;
 import org.sticollegeandroidprojects.applicationdriver.database.AppData;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.DWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EBookmarkWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EBookmarkWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.ERecentWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 
 import java.text.SimpleDateFormat;

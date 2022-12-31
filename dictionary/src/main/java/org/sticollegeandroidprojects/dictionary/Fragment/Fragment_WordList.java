@@ -1,7 +1,6 @@
 package org.sticollegeandroidprojects.dictionary.Fragment;
 
 import androidx.core.widget.NestedScrollView;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
@@ -16,7 +15,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageButton;
@@ -24,16 +22,11 @@ import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterDescriptionInfos;
 import org.sticollegeandroidprojects.dictionary.R;
 import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Fragment_WordList extends Fragment {
     private static final String TAG = Fragment_WordList.class.getSimpleName();
@@ -45,7 +38,7 @@ public class Fragment_WordList extends Fragment {
     private AutoCompleteTextView txtSearch;
     private RecyclerView recyclerView;
     private NestedScrollView ncvDescript;
-    private TextView lblWord, lblType, lblPrnc, lblDesc;
+    private TextView lblWord, lblType, lblPrnc, lblDesc, lblNoRcd;
     private ImageButton btnSave, btnListen;
     private RecyclerView rcvTranslate, rcvSamples;
 
@@ -80,6 +73,7 @@ public class Fragment_WordList extends Fragment {
                             lsSelectd = eDictionaryWords.get(x).getWordIDxx();
                         }
                     }
+                    lblNoRcd.setVisibility(View.GONE);
 
                     mViewModel.SaveRecent(lsSelectd, new VMWordList.OnSaveWordListener() {
                         @Override
@@ -103,6 +97,7 @@ public class Fragment_WordList extends Fragment {
         mViewModel.GetRecentList(lnType).observe(requireActivity(), recentWords -> {
             try{
                 tabLayout.removeAllTabs();
+                lblNoRcd.setVisibility(View.GONE);
                 for(int x = 0; x < recentWords.size(); x++){
                     tabLayout.addTab(tabLayout.newTab().setText(recentWords.get(x).sWordName));
                 }
@@ -110,7 +105,7 @@ public class Fragment_WordList extends Fragment {
                 tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
                     @Override
                     public void onTabSelected(TabLayout.Tab tab) {
-                        mViewModel.setWordID(recentWords.get(tab.getPosition()).sWordIDxx);
+                        PreviewResult(recentWords.get(tab.getPosition()).sWordIDxx);
                     }
 
                     @Override
@@ -128,15 +123,6 @@ public class Fragment_WordList extends Fragment {
             }
         });
 
-        mViewModel.getWordID().observe(getViewLifecycleOwner(), s -> {
-            try {
-                if (s != null) {
-                    PreviewResult(s);
-                }
-            } catch (Exception e){
-                e.printStackTrace();
-            }
-        });
 
         return view;
     }
@@ -151,6 +137,7 @@ public class Fragment_WordList extends Fragment {
         lblType = view.findViewById(R.id.lblWordType);
         lblPrnc = view.findViewById(R.id.lblPrnction);
         lblDesc = view.findViewById(R.id.lblWordDesc);
+        lblNoRcd = view.findViewById(R.id.lblNoRecord);
         btnSave = view.findViewById(R.id.btnBookMark);
         btnListen = view.findViewById(R.id.btnSpeech);
         rcvTranslate = view.findViewById(R.id.rcv_translate);

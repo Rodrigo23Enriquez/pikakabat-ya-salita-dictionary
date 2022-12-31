@@ -1,27 +1,29 @@
-package org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity;
+package org.sticollegeandroidprojects.applicationdriver.database.Entity;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import org.sticollegeandroidprojects.applicationdriver.Etc.Constants;
-
-@Entity(tableName = "Recent_Words")
-public class ERecentWord {
+@Entity(tableName = "Trivia_Words")
+public class ETrivia {
 
     @NonNull
     @PrimaryKey
     @ColumnInfo(name = "sWordIDxx")
     private String WordIDxx;
+    @ColumnInfo(name = "sWordName")
+    private String WordName = "";
+    @ColumnInfo(name = "sImgLinkx")
+    private String ImgLinkx = "";
     @ColumnInfo(name = "sInfoxxxx")
     private String Infoxxxx = "";
     @ColumnInfo(name = "dModified")
     private String Modified = "";
     @ColumnInfo(name = "dTimeStmp")
-    private String TimeStmp = new Constants().DATE_MODIFIED;
+    private String TimeStmp = "";
 
-    public ERecentWord() {
+    public ETrivia() {
     }
 
     @NonNull
@@ -31,6 +33,14 @@ public class ERecentWord {
 
     public void setWordIDxx(@NonNull String wordIDxx) {
         WordIDxx = wordIDxx;
+    }
+
+    public String getWordName() {
+        return WordName;
+    }
+
+    public void setWordName(String wordName) {
+        WordName = wordName;
     }
 
     public String getInfoxxxx() {
@@ -55,5 +65,13 @@ public class ERecentWord {
 
     public void setTimeStmp(String timeStmp) {
         TimeStmp = timeStmp;
+    }
+
+    public String getImgLinkx() {
+        return ImgLinkx;
+    }
+
+    public void setImgLinkx(String imgLinkx) {
+        ImgLinkx = imgLinkx;
     }
 }
