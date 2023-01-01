@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.ERecentWord;
 
 import java.util.List;
 

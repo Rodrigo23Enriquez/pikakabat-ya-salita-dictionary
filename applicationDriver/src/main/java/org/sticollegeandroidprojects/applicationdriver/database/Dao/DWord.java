@@ -6,9 +6,9 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EBookmarkWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.ERecentWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EBookmarkWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.ERecentWord;
 
 import java.util.List;
 

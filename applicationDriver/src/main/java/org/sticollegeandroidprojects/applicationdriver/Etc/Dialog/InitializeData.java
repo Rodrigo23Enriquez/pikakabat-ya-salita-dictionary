@@ -1,6 +1,7 @@
 package org.sticollegeandroidprojects.applicationdriver.Etc.Dialog;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.ETrivia;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +10,7 @@ public class InitializeData {
     private final List<EDictionaryWords> poList = new ArrayList<>();
 
     private EDictionaryWords loDetail;
+    private ETrivia loTrivia;
 
     public void InitializeWords(){
         loDetail = new EDictionaryWords();
@@ -75,7 +77,7 @@ public class InitializeData {
         loDetail.setWordName("Dengel");
         loDetail.setPrnction("De-ngel");
         loDetail.setWordType("Verb");
-        loDetail.setDescript("Give one's attention to a sound.");
+        loDetail.setDescript("Give ones attention to a sound.");
         loDetail.setTransLte("Hear, Listen");
         loDetail.setInfoxxxx("Dengel moy ibabaga ya pusom, Listen to what your heart is saying");
         loDetail.setDctnryTp(0);
@@ -197,7 +199,7 @@ public class InitializeData {
         loDetail.setWordType("Noun");
         loDetail.setDescript("A time of hardship. Stretch out an arm in a specified direction in order to touch or grasp something.");
         loDetail.setTransLte("Scarcity,Starvation,Reach");
-        loDetail.setInfoxxxx("Agkogabay ya nalikna so gawat ed siyak, I don't want to feel starvation");
+        loDetail.setInfoxxxx("Agkogabay ya nalikna so gawat ed siyak, I dont want to feel starvation");
         loDetail.setDctnryTp(0);
         poList.add(loDetail);
 
@@ -297,7 +299,7 @@ public class InitializeData {
         loDetail.setWordType("Verb");
         loDetail.setDescript("        Prepare (food, a dish, or a meal) by combining and heating the ingredients in various ways.");
         loDetail.setTransLte("Cook");
-        loDetail.setInfoxxxx("Ilutom ta lamay manok,Let's cook the chicken");
+        loDetail.setInfoxxxx("Ilutom ta lamay manok,Lets cook the chicken");
         loDetail.setDctnryTp(0);
         poList.add(loDetail);
 
@@ -365,7 +367,7 @@ public class InitializeData {
         loDetail.setWordName("Ituro");
         loDetail.setPrnction("I-tu-ro");
         loDetail.setWordType("Verb");
-        loDetail.setDescript("Direct someone's gaze or attention toward, especially by extending one's finger.");
+        loDetail.setDescript("Direct someones gaze or attention toward, especially by extending ones finger.");
         loDetail.setTransLte("Point Out");
         loDetail.setInfoxxxx("Pinapaway ya pupulis iray totoo piyan naituro to so suspek, A policeman asked people to go out so that he could point out the suspect");
         loDetail.setDctnryTp(0);
@@ -427,7 +429,7 @@ public class InitializeData {
         loDetail.setWordType("Noun");
         loDetail.setDescript("The period of darkness in each twenty-four hours; the time from sunset to sunrise.");
         loDetail.setTransLte("Evening, Night");
-        loDetail.setInfoxxxx("Labi la sempet kalad abong, It's already evening; go home");
+        loDetail.setInfoxxxx("Labi la sempet kalad abong, Its already evening; go home");
         loDetail.setDctnryTp(0);
         poList.add(loDetail);
 
@@ -457,7 +459,7 @@ public class InitializeData {
         loDetail.setWordType("Adjectives");
         loDetail.setDescript("In need of sleep or rest; weary.");
         loDetail.setTransLte("Tried");
-        loDetail.setInfoxxxx("Naksawan akla, I'm tired");
+        loDetail.setInfoxxxx("Naksawan akla, Im tired");
         loDetail.setDctnryTp(0);
         poList.add(loDetail);
 
@@ -547,7 +549,7 @@ public class InitializeData {
         loDetail.setWordType("Verb");
         loDetail.setDescript("An instance of a person waking up or being woken up");
         loDetail.setTransLte("Abong-aralan");
-        loDetail.setInfoxxxx("Let's study in school building, Manaral tayo ed abong-aralan");
+        loDetail.setInfoxxxx("Lets study in school building, Manaral tayo ed abong-aralan");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -575,7 +577,7 @@ public class InitializeData {
         loDetail.setWordName("Listen");
         loDetail.setPrnction("Lis-ten");
         loDetail.setWordType("Verb");
-        loDetail.setDescript("Give one's attention to a sound.");
+        loDetail.setDescript("Give ones attention to a sound.");
         loDetail.setTransLte("Dayo");
         loDetail.setInfoxxxx("We have alot of visitor in our barangay, Dakel ya dayo jad barangay mi");
         loDetail.setDctnryTp(1);
@@ -697,7 +699,7 @@ public class InitializeData {
         loDetail.setWordType("Noun");
         loDetail.setDescript("A time of hardship. Stretch out an arm in a specified direction in order to touch or grasp something");
         loDetail.setTransLte("Gastador");
-        loDetail.setInfoxxxx("He is rich that's why he is a waster, Mayaman katon gastador");
+        loDetail.setInfoxxxx("He is rich thats why he is a waster, Mayaman katon gastador");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -847,7 +849,7 @@ public class InitializeData {
         loDetail.setWordType("Noun");
         loDetail.setDescript("A definite or clear expression of something in speech or writing.");
         loDetail.setTransLte("Kayamanan, Yaman");
-        loDetail.setInfoxxxx("The country's wealth comes from its oil, Mainawa ya bansa sengeg ed langis");
+        loDetail.setInfoxxxx("The countrys wealth comes from its oil, Mainawa ya bansa sengeg ed langis");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -885,7 +887,7 @@ public class InitializeData {
         loDetail.setWordName("Point out");
         loDetail.setPrnction("Point-out");
         loDetail.setWordType("Verb");
-        loDetail.setDescript("To direct someone's attention to (someone or something) by pointing");
+        loDetail.setDescript("To direct someones attention to (someone or something) by pointing");
         loDetail.setTransLte("Manpabayes, Manpautang");
         loDetail.setInfoxxxx("Lend me your money, Ipaotang mod siyak so kwartam");
         loDetail.setDctnryTp(1);
@@ -957,7 +959,7 @@ public class InitializeData {
         loDetail.setWordType("Noun");
         loDetail.setDescript("To let go of something so that it enters something else");
         loDetail.setTransLte("Naksawan");
-        loDetail.setInfoxxxx("I'm so tired in working, Naksawan ak lan mantrabaho");
+        loDetail.setInfoxxxx("Im so tired in working, Naksawan ak lan mantrabaho");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -987,7 +989,7 @@ public class InitializeData {
         loDetail.setWordType("Verb");
         loDetail.setDescript("To say or tell people something more than once");
         loDetail.setTransLte("Tilak");
-        loDetail.setInfoxxxx("I won't leave you behind, Agta ka itilak");
+        loDetail.setInfoxxxx("I wont leave you behind, Agta ka itilak");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -1014,5 +1016,83 @@ public class InitializeData {
 
     public List<EDictionaryWords> GetWordsList(){
         return poList;
+    }
+
+    public List<ETrivia> GetTriviaList(){
+        List<ETrivia> loList = new ArrayList<>();
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("PANGASINAN");
+        loTrivia.setImgLinkx("https://www.discoverthephilippines.com/wp-content/uploads/2021/08/article-cover-photo-pangasinan-guide.jpg");
+        loTrivia.setInfoxxxx("Pangasinans name was derived from the word “asin”. Pangasinan was the largest producer of salt in the Philippines, but it was during the Spanish occupation when people called the place, “pang-asinan” or a place of salt-making. One salt farm called the Pacific Farm, can produce 30 million of kilos of salt annually. Pangasinan is the largest province in Ilocos Region, as well as located at the border of the region at its south. It comprises of 4 cities and 44 towns");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("SUNFLOWER MAZE");
+        loTrivia.setImgLinkx("https://outoftownblog.com/wp-content/uploads/2017/02/Sunflower-Farm-Maze-in-Layug-Pangasinan-photo-by-Allied-Botanical-Corp-Facebook.jpg");
+        loTrivia.setInfoxxxx("The first sunflower maze in the Philippines is in Pangasinan. This sunflower farm is called Allied Botanical Corporation, can be found in Barangay Lichauco in Tayug, the eastern part of the province.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("HUNDRED ISLAND NATIONAL PARK");
+        loTrivia.setImgLinkx("https://ilovepangasinan.com/wp-content/uploads/2016/12/I-Love-Front-Picture-Hundred-Islands.jpg");
+        loTrivia.setInfoxxxx("Hundred Islands National Park Alaminos Pangasinan has more than 100 islands for you to enjoy, 124 to be exact during low tide and 123 during high tide. It is officially declared by President Manuel Quezon as a national park in 1940.  Tourist  can dip at the beautiful beaches and see amazing nature spots. Its home to places that are perfect for recreational activities—from swimming and trekking to sightseeing.Its known across the world for good reason—scattered beautifully upon the blue-green waters of the Lingayen Gulf, with abundant inland and underwater flora and fauna, cream-colored fine sand that yields to every step, and friendly local islanders.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("FIRST TRAIN OUTSIDE MANILA");
+        loTrivia.setImgLinkx("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PNR17-Dagupan.jpg/640px-PNR17-Dagupan.jpg");
+        loTrivia.setInfoxxxx("The railway officially opened on November 24, 1892. Its route is from Dagupan City to Tutuban in Manila. The railway is no longer functioning, but anybody can still see its remains in Tutuban.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("PHILIPPINE NATIONAL ANTHEM");
+        loTrivia.setImgLinkx("https://coconuts.co/wp-content/uploads/2018/09/20150612-flag-luneta-bs-950x540.jpg");
+        loTrivia.setInfoxxxx("The Philippine National Anthem lyrics was in written in Pangasinan. The lyrics was originally a poem, entitled, “Filipinas” was written in Spanish by Jose Palma in Bautista, Pangasinan. The music was also originally a march song commissioned by the first president of the Republic of the Philippines, General Emilio Aguinaldo.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("BUGALLON");
+        loTrivia.setImgLinkx("https://3.bp.blogspot.com/_qlZRMA0BnbY/TUHwvz5D3aI/AAAAAAAAGGo/YSgOvdEgrBQ/w1200-h630-p-k-no-nu/4053406072_f14e79cd12_z.jpg");
+        loTrivia.setInfoxxxx("Bugallon was named after the hero from the town, and one of the provinces hero as well, Jose Torres Bugallon. In fact, a road in Lingayen was named after him. The town was known for agriculture by which the main statue in their plaza is a huge carabao.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("MAPANDAN");
+        loTrivia.setImgLinkx("https://justforfun868929716.files.wordpress.com/2018/09/26874919-e1537515055286.jpg?w=594&h=350");
+        loTrivia.setInfoxxxx("Mapandan is in fact a part of Mangaldan town then, and went independent as a town. Its name is even similar to the latter, but it was really derived from pandan, a plant/herb used as a flavoring or aroma in cooking.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("PRINCESS URDUJA");
+        loTrivia.setImgLinkx("http://1.bp.blogspot.com/-nGyUPCyn8-U/U0A6lopQWlI/AAAAAAAADa8/XtiOG7vSULA/s1600/Princess+Urduja.jpg");
+        loTrivia.setInfoxxxx("Princess of Pangasinan. A warrior queen of a matriarchal dynasty, Urduja was a 14th century ruler of Tawalisi, in what is now known as Pangasinan. Princess Urduja was trained in the art of war since she was a child, and became an expert in using the kampilan and a skilled navigator. Known far and wide, she was famous for leading a retinue of women warriors who were skilled fighters, equestrians, and experts in weaponry. With bodies of strength and muscular physique, they were known as Kinalakian, or Amazons. The legend of Princess Urduja can be attributed to the story of when she met the greatest traveler in history, Ibn Battuta.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("DAGUPAN CITY");
+        loTrivia.setImgLinkx("https://i0.wp.com/peoplaid.com/wp-content/uploads/2019/03/Dagupan-City-Welcome-Arch.jpg?fit=632%2C465&ssl=1");
+        loTrivia.setInfoxxxx("Home of the tastiest milkfish in the world. Dagupan City was originally named Bacnotan by the Augustinian missionaries a few years after the establishment of the Spanish encomienda in Pangasinan in 1583.  In 1660, Andres Malong, a local chieftain, led a revolt against the Spaniards for imposing forced labor.  After the revolt, the people rebuilt the town. To commemorate the gathering forces under Malong, the place was renamed to “Nandaragupan” which means “where people meet”.  In 1780, the name of the town was simplified to Dagupan, followed by the end of Spanish rule in July 23, 1898 when the Spanish troops surrendered to the Katipunan leader, General Francisco Makabulos.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("CALASIO");
+        loTrivia.setImgLinkx("https://live.staticflickr.com/3161/3349916963_3fc42c7690_b.jpg");
+        loTrivia.setInfoxxxx("Known as the “Home of the famous and tasty rice cake. The Municipality of Calasiao is the second oldest town in the Province of Pangasinan.  It was founded by the Dominicans in the year 1588.  CALASIAO is derived from the root word “LASI” which means a place of lightning. Calasiao is where one can find the pilgrim site of the Señor Divino Tesoro and the only NCCA acknowledged cultural treasure in Pangasinan, the Sts. Peter & Paul Parish Church. It is also the home of the famous and tasty Calasiao Puto, it is a type of rice cake (puto) that is made out of fermented rice flour and shaped in bite-size portions.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("LINGAYEN");
+        loTrivia.setImgLinkx("https://i0.wp.com/www.themermaidtravels.com/wp-content/uploads/2014/05/1-DSC_0137.jpg?fit=1600%2C1059&ssl=1");
+        loTrivia.setInfoxxxx("The heart, the soul, and the face” of the Province of Pangasinan.The municipality got its name from a certain corpulent tamarind tree that grew at the present town plaza.  The tree was exceptionally big, tall and spreading that the surrounding trees were just dwarfs in comparison.  Passersby developed the habit of looking back and back again at this corpulent tree until it would vanish from their view.  When they arrived home and were asked what way they took in return, they would simply say through Lingayen meaning “looking back”.  Since then up to the present time, the town bears its name as “LINGAYEN”. It is also known as the home of the most delectable bagoong.  The theory of some makers is that the salinity of the air is a factor why fish fermenting is very ideal in Lingayen.");
+        loList.add(loTrivia);
+
+        loTrivia = new ETrivia();
+        loTrivia.setWordName("MANAOAG");
+        loTrivia.setImgLinkx("https://images.squarespace-cdn.com/content/v1/54889a49e4b0a429df687e67/1606159518413-PXZ09TPZJOMFLR2QP8VQ/IMG_5065.jpeg?format=2500w");
+        loTrivia.setInfoxxxx("Manaoag began as a small settlement of Cawili, now the town of San Jacinto, by the banks of Baloquing Creek in the early 1600s.  Some years later, the Augustinian Fathers established a Christian Mission which was originated and regarded as the");
+        loList.add(loTrivia);
+
+        return loList;
     }
 }

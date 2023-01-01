@@ -2,18 +2,13 @@ package org.sticollegeandroidprojects.dictionary.ViewModel;
 
 import android.app.Application;
 import android.os.AsyncTask;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
 
 import org.sticollegeandroidprojects.applicationdriver.AppDriver;
 import org.sticollegeandroidprojects.applicationdriver.Repository.FactoryPYSD;
-import org.sticollegeandroidprojects.applicationdriver.Repository.Recent;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 
 import java.util.List;

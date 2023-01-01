@@ -1,6 +1,7 @@
 package com.example.pikakabatyasalitadictionary.Fragment;
 
 import androidx.cardview.widget.CardView;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Intent;
@@ -22,7 +23,10 @@ import com.example.pikakabatyasalitadictionary.Activity.Activity_Home;
 import com.example.pikakabatyasalitadictionary.R;
 import com.example.pikakabatyasalitadictionary.ViewModel.VMDashboard;
 import com.google.android.material.button.MaterialButton;
+import com.squareup.picasso.Picasso;
 
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.ETrivia;
+import org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 
 public class Fragment_Dashboard extends Fragment {
@@ -61,10 +65,22 @@ public class Fragment_Dashboard extends Fragment {
             startActivity(loIntent);
         });
 
-        cvTrivia.setOnClickListener(v -> {
-            Bundle bundle = new Bundle();
-            bundle.putString("sWordIDxx", "");
-//            navController.navigate(R.id.action_nav_home_to_nav_trivia, bundle);
+
+        mViewModel.GetTrivia().observe(getViewLifecycleOwner(), trivia -> {
+            try {
+                Picasso.get().load(trivia.getImgLinkx()).placeholder(org.sticollegeandroidprojects.applicationdriver.R.drawable.ic_baseline_image_not_supported)
+                        .error(org.sticollegeandroidprojects.applicationdriver.R.drawable.ic_baseline_broken_image).into(imgTrivia);
+
+                txtWord.setText(trivia.getWordName());
+                txtDesc.setText(trivia.getInfoxxxx());
+                cvTrivia.setOnClickListener(v -> {
+                    Intent loIntent = new Intent(requireContext(), Activity_Trivia.class);
+                    loIntent.putExtra("sWordIDxx", trivia.getWordIDxx());
+                    startActivity(loIntent);
+                });
+            } catch (Exception e){
+                e.printStackTrace();
+            }
         });
 
         return view;

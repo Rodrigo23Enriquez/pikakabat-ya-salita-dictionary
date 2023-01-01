@@ -8,6 +8,9 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="32" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -23,7 +26,8 @@
         android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
         <activity
             android:name="com.example.pikakabatyasalitadictionary.MainActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="userPortrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -32,6 +36,7 @@
             android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_Home"
             android:exported="false"
             android:label="@string/title_activity_home"
+            android:screenOrientation="userPortrait"
             android:theme="@style/Theme.PikakabatYaSalitaDictionary.NoActionBar" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -63,7 +68,8 @@
             android:launchMode="singleTask" />
         <activity
             android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_SplashScreen"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="userPortrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,34 +85,50 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
+            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_MoreTrivia"
+            android:exported="false"
+            android:screenOrientation="userPortrait" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="userPortrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="userPortrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="userPortrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList"
-            android:exported="false" >
+            android:exported="false"
+            android:screenOrientation="userPortrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.pikakabatyasalitadictionary.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.pikakabatyasalitadictionary.androidx-startup"

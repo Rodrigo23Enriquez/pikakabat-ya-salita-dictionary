@@ -308,7 +308,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../Android/sdk/icons/material/materialicons/bookmark/baseline_bookmark_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../Android/sdk/icons/material/materialicons/broken_image/baseline_broken_image_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -318,7 +318,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_bookmark_filled" />
+                            <entry key="outputName" value="ic_baseline_broken_image_24" />
                             <entry key="sourceFile" value="C:\Users\Mike\Downloads\idea-bulb-glow-svgrepo-com.svg" />
                           </map>
                         </option>

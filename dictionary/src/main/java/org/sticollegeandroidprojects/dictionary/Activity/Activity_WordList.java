@@ -9,7 +9,9 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.media.AudioAttributes;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,6 +29,7 @@ import org.sticollegeandroidprojects.dictionary.R;
 import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 
 /**
@@ -39,11 +42,13 @@ public class Activity_WordList extends AppCompatActivity {
 
     private int lnType;
 
+    private TextToSpeech poSpeech;
+
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private AutoCompleteTextView txtSearch;
     private NestedScrollView ncvDescript;
-    private TextView lblWord, lblType, lblPrnc, lblDesc;
+    private TextView lblWord, lblType, lblPrnc, lblDesc, lblNoRcd;
     private ImageButton btnSave, btnListen;
     private RecyclerView rcvTranslate, rcvSamples;
 
@@ -55,6 +60,24 @@ public class Activity_WordList extends AppCompatActivity {
         lnType = getIntent().getIntExtra("instance", 0);
         InitWidgets();
         //ASC for list sorted on ascending order, else DESC for descending order.
+
+        poSpeech = new TextToSpeech(Activity_WordList.this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status == TextToSpeech.SUCCESS){
+                    int lnResult = poSpeech.setLanguage(Locale.ENGLISH);
+                    if(lnResult == TextToSpeech.LANG_MISSING_DATA ||
+                        lnResult == TextToSpeech.LANG_NOT_SUPPORTED){
+                        Log.e(TAG, "Text to speed language not supported");
+                    } else {
+                        btnListen.setEnabled(true);
+                    }
+                } else {
+                    Log.e(TAG, "Text to speed initialization failed.");
+                }
+            }
+        });
+
         mViewModel.GetWordsList(lnType).observe(Activity_WordList.this, eDictionaryWords -> {
             try{
                 ArrayList<String> loList = new ArrayList<>();
@@ -111,7 +134,7 @@ public class Activity_WordList extends AppCompatActivity {
                     tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
                         @Override
                         public void onTabSelected(TabLayout.Tab tab) {
-                            mViewModel.setWordID(recentWords.get(tab.getPosition()).sWordIDxx);
+                            PreviewResult(recentWords.get(tab.getPosition()).sWordIDxx);
                         }
 
                         @Override
@@ -126,16 +149,6 @@ public class Activity_WordList extends AppCompatActivity {
                     });
                 } else {
                     tabLayout.setVisibility(View.GONE);
-                }
-            } catch (Exception e){
-                e.printStackTrace();
-            }
-        });
-
-        mViewModel.getWordID().observe(Activity_WordList.this, s -> {
-            try {
-                if (s != null) {
-                    PreviewResult(s);
                 }
             } catch (Exception e){
                 e.printStackTrace();
@@ -160,6 +173,7 @@ public class Activity_WordList extends AppCompatActivity {
         lblType = findViewById(R.id.lblWordType);
         lblPrnc = findViewById(R.id.lblPrnction);
         lblDesc = findViewById(R.id.lblWordDesc);
+        lblNoRcd = findViewById(R.id.lblNoRecord);
         btnSave = findViewById(R.id.btnBookMark);
         btnListen = findViewById(R.id.btnSpeech);
         rcvTranslate = findViewById(R.id.rcv_translate);
@@ -169,45 +183,67 @@ public class Activity_WordList extends AppCompatActivity {
     private void PreviewResult(String args){
         mViewModel.GetWordDetail(args).observe(Activity_WordList.this, word -> {
             try{
-                mViewModel.GetBookmarkWord(word.getWordIDxx()).observe(Activity_WordList.this, bookmark -> {
-                    if(bookmark == null){
-                        btnSave.setImageDrawable(getResources().getDrawable(org.sticollegeandroidprojects.applicationdriver.R.drawable.ic_baseline_bookmark));
-                    } else {
-                        btnSave.setImageDrawable(getResources().getDrawable(org.sticollegeandroidprojects.applicationdriver.R.drawable.ic_baseline_bookmark_filled));
-                    }
-                });
-                lblWord.setText(word.getWordName());
-                lblType.setText(word.getWordType());
-                lblPrnc.setText(word.getPrnction());
-                lblDesc.setText(word.getDescript());
-                String[] lsTranslate = word.getTransLte().split(", ");
-                String[] lsExamples = word.getInfoxxxx().split(", ");
+                if(word == null){
+                    lblNoRcd.setVisibility(View.VISIBLE);
+                    ncvDescript.setVisibility(View.GONE);
+                } else {
+                    lblNoRcd.setVisibility(View.GONE);
+                    ncvDescript.setVisibility(View.VISIBLE);
+                    mViewModel.GetBookmarkWord(word.getWordIDxx()).observe(Activity_WordList.this, bookmark -> {
+                        if (bookmark == null) {
+                            btnSave.setImageDrawable(getResources().getDrawable(org.sticollegeandroidprojects.applicationdriver.R.drawable.ic_baseline_bookmark));
+                        } else {
+                            btnSave.setImageDrawable(getResources().getDrawable(org.sticollegeandroidprojects.applicationdriver.R.drawable.ic_baseline_bookmark_filled));
+                        }
+                    });
+                    lblWord.setText(word.getWordName());
+                    lblType.setText(word.getWordType());
+                    lblPrnc.setText(word.getPrnction());
+                    lblDesc.setText(word.getDescript());
+                    String[] lsTranslate = word.getTransLte().split(", ");
+                    String[] lsExamples = word.getInfoxxxx().split(", ");
 
-                LinearLayoutManager loLayout = new LinearLayoutManager(Activity_WordList.this);
-                loLayout.setOrientation(RecyclerView.VERTICAL);
-                rcvTranslate.setLayoutManager(loLayout);
-                rcvTranslate.setAdapter(new AdapterDescriptionInfos(lsTranslate));
+                    LinearLayoutManager loLayout = new LinearLayoutManager(Activity_WordList.this);
+                    loLayout.setOrientation(RecyclerView.VERTICAL);
+                    rcvTranslate.setLayoutManager(loLayout);
+                    rcvTranslate.setAdapter(new AdapterDescriptionInfos(lsTranslate));
 
-                loLayout = new LinearLayoutManager(Activity_WordList.this);
-                loLayout.setOrientation(RecyclerView.VERTICAL);
-                rcvSamples.setLayoutManager(loLayout);
-                rcvSamples.setAdapter(new AdapterDescriptionInfos(lsExamples));
+                    loLayout = new LinearLayoutManager(Activity_WordList.this);
+                    loLayout.setOrientation(RecyclerView.VERTICAL);
+                    rcvSamples.setLayoutManager(loLayout);
+                    rcvSamples.setAdapter(new AdapterDescriptionInfos(lsExamples));
 
-                btnSave.setOnClickListener(v -> mViewModel.SaveWord(word.getWordIDxx(), new VMWordList.OnSaveWordListener() {
-                    @Override
-                    public void OnSave(String args1) {
-                        Toast.makeText(Activity_WordList.this, word.getWordName() + " added to favorites.", Toast.LENGTH_SHORT).show();
-                    }
+                    btnSave.setOnClickListener(v -> mViewModel.SaveWord(word.getWordIDxx(), new VMWordList.OnSaveWordListener() {
+                        @Override
+                        public void OnSave(String args1) {
+                            Toast.makeText(Activity_WordList.this, word.getWordName() + " added to favorites.", Toast.LENGTH_SHORT).show();
+                        }
 
-                    @Override
-                    public void OnFailed(String message) {
-                        Toast.makeText(Activity_WordList.this, message, Toast.LENGTH_SHORT).show();
-                    }
-                }));
+                        @Override
+                        public void OnFailed(String message) {
+                            Toast.makeText(Activity_WordList.this, message, Toast.LENGTH_SHORT).show();
+                        }
+                    }));
+
+                    btnListen.setOnClickListener(v -> SpeakTheWord(word.getWordName()));
+                }
             } catch (Exception e){
                 e.printStackTrace();
             }
         });
+    }
+
+    private void SpeakTheWord(String args){
+        poSpeech.speak(args, TextToSpeech.QUEUE_FLUSH, null);
+    }
+
+    @Override
+    protected void onDestroy() {
+        if(poSpeech != null){
+            poSpeech.stop();
+            poSpeech.shutdown();
+        }
+        super.onDestroy();
     }
 
     @Override

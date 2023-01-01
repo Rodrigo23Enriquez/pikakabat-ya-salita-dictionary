@@ -2629,9 +2629,11 @@ drawable ic_about
 drawable ic_baseline_about
 drawable ic_baseline_bookmark
 drawable ic_baseline_bookmark_filled
+drawable ic_baseline_broken_image
 drawable ic_baseline_dictionary
 drawable ic_baseline_home
 drawable ic_baseline_home_24
+drawable ic_baseline_image_not_supported
 drawable ic_baseline_recent
 drawable ic_baseline_remove
 drawable ic_baseline_search
@@ -2848,6 +2850,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id appBarLayout
+id appBarLayout2
 id app_bar_activity_home
 id arc
 id asConfigured
@@ -2869,6 +2872,7 @@ id bounceEnd
 id bounceStart
 id btmenu
 id btnBookMark
+id btnMore
 id btnNegative
 id btnPositive
 id btnRemove
@@ -2901,6 +2905,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id collapsing_toolbar_layout
 id compress
 id confirm_button
 id constraint
@@ -3028,6 +3033,7 @@ id lblTitle
 id lblTranslation
 id lblTrivia
 id lblTriviaDesc
+id lblTriviaInfo
 id lblTriviaWord
 id lblWord
 id lblWordDesc
@@ -3442,6 +3448,7 @@ layout activity_dashboard
 layout activity_dictionary
 layout activity_home
 layout activity_main
+layout activity_more_trivia
 layout activity_pangto_english_discription
 layout activity_recent
 layout activity_saved_words
@@ -3998,6 +4005,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style CollapsingToolbar
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text
 style MaterialAlertDialog_Material3_Body_Text_CenterStacked

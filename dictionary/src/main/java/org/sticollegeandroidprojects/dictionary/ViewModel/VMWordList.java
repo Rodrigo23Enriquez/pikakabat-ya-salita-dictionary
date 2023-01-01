@@ -6,12 +6,11 @@ import android.os.AsyncTask;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 
 import org.sticollegeandroidprojects.applicationdriver.AppDriver;
 import org.sticollegeandroidprojects.applicationdriver.Repository.FactoryPYSD;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity.EDictionaryWords;
+import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 
 import java.util.List;
@@ -19,8 +18,6 @@ import java.util.List;
 public class VMWordList extends AndroidViewModel {
 
     private final FactoryPYSD poSys;
-
-    private final MutableLiveData<String> psWordIDxx = new MutableLiveData<>();
 
     public interface OnSaveWordListener{
         void OnSave(String args);
@@ -30,14 +27,6 @@ public class VMWordList extends AndroidViewModel {
     public VMWordList(@NonNull Application application) {
         super(application);
         this.poSys = new AppDriver(application).InitializeObject(AppDriver.Instance.DICTIONARY);
-    }
-
-    public LiveData<String> getWordID(){
-        return psWordIDxx;
-    }
-
-    public void setWordID(String val){
-        psWordIDxx.setValue(val);
     }
 
     public LiveData<List<EDictionaryWords>> GetWordsList(int type){

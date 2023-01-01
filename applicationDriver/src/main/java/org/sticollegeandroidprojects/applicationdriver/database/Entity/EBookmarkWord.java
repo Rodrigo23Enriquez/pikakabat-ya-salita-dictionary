@@ -1,4 +1,4 @@
-package org.sticollegeandroidprojects.applicationdriver.database.Dao.Entity;
+package org.sticollegeandroidprojects.applicationdriver.database.Entity;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
