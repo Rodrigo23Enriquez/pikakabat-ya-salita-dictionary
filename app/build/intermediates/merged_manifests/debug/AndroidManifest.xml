@@ -22,7 +22,6 @@
         android:label="Pikakabat Ya Salita"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
         <activity
             android:name="com.example.pikakabatyasalitadictionary.MainActivity"

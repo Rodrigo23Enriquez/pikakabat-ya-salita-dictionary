@@ -6,282 +6,281 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml
+8-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml
+9-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:8:5-77:19
+14-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:8:5-77:19
 15        android:allowBackup="true"
-15-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:9:9-35
+15-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.8.0] C:\Users\Mike\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.8.0] C:\Users\Rodz\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:10:9-65
+17-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:10:9-65
 18        android:debuggable="true"
 19        android:extractNativeLibs="false"
 20        android:fullBackupContent="@xml/backup_rules"
-20-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:11:9-54
+20-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:11:9-54
 21        android:icon="@drawable/outside_logo"
-21-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:12:9-46
+21-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:12:9-46
 22        android:label="Pikakabat Ya Salita"
-22-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:13:9-44
+22-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:13:9-44
 23        android:roundIcon="@mipmap/ic_launcher"
-23-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:14:9-48
+23-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:14:9-48
 24        android:supportsRtl="true"
-24-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:15:9-35
-25        android:testOnly="true"
-26        android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
-26-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:16:9-65
-27        <activity
-27-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:18:9-25:20
-28            android:name="com.example.pikakabatyasalitadictionary.MainActivity"
-28-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:19:13-41
-29            android:exported="false"
-29-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:21:13-37
-30            android:screenOrientation="userPortrait" >
-30-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:20:13-53
-31            <meta-data
-31-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-32                android:name="android.app.lib_name"
-32-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-33                android:value="" />
-33-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-34        </activity>
-35        <activity
-35-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:26:9-35:20
-36            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_Home"
-36-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:27:13-51
-37            android:exported="false"
-37-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:29:13-37
-38            android:label="@string/title_activity_home"
-38-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:30:13-56
-39            android:screenOrientation="userPortrait"
-39-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:28:13-53
-40            android:theme="@style/Theme.PikakabatYaSalitaDictionary.NoActionBar" >
-40-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:31:13-81
-41            <meta-data
-41-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-42                android:name="android.app.lib_name"
-42-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-43                android:value="" />
-43-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-44        </activity>
-45        <activity
-45-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:36:9-39:56
-46            android:name="com.example.pikakabatyasalitadictionary.PangtoEnglishDiscription"
-46-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:37:13-53
-47            android:exported="false"
-47-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:38:13-37
-48            android:parentActivityName="com.example.pikakabatyasalitadictionary.Dictionary" />
-48-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:39:13-53
-49        <activity
-49-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:40:9-42:40
-50            android:name="com.example.pikakabatyasalitadictionary.SavedWords"
-50-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:41:13-39
-51            android:exported="false" />
-51-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:42:13-37
-52        <activity
-52-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:43:9-45:40
-53            android:name="com.example.pikakabatyasalitadictionary.Recent"
-53-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:44:13-35
-54            android:exported="false" />
-54-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:45:13-37
-55        <activity
-55-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:46:9-48:40
-56            android:name="com.example.pikakabatyasalitadictionary.TriviaInPangasinan"
-56-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:47:13-47
-57            android:exported="false" />
-57-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:48:13-37
-58        <activity
-58-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:49:9-51:40
-59            android:name="com.example.pikakabatyasalitadictionary.Dictionary"
-59-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:50:13-39
-60            android:exported="false" />
-60-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:51:13-37
-61        <activity
-61-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:52:9-55:47
-62            android:name="com.example.pikakabatyasalitadictionary.About"
-62-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:53:13-34
-63            android:exported="false"
-63-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:54:13-37
-64            android:launchMode="singleTask" />
-64-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:55:13-44
-65        <activity
-65-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:56:9-59:47
-66            android:name="com.example.pikakabatyasalitadictionary.Dashboard"
-66-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:57:13-38
-67            android:exported="false"
-67-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:58:13-37
-68            android:launchMode="singleTask" />
-68-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:59:13-44
-69        <activity
-69-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:60:9-69:20
-70            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_SplashScreen"
-70-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:61:13-59
-71            android:exported="true"
-71-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:63:13-36
-72            android:screenOrientation="userPortrait" >
-72-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:62:13-53
-73            <intent-filter>
-73-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:64:13-68:29
-74                <action android:name="android.intent.action.MAIN" />
-74-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:65:17-69
-74-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:65:25-66
-75
-76                <category android:name="android.intent.category.LAUNCHER" />
-76-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:67:17-77
-76-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:67:27-74
-77            </intent-filter>
-78        </activity>
-79
-80        <meta-data
-80-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:71:9-73:70
-81            android:name="com.google.android.gms.ads.APPLICATION_ID"
-81-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:72:13-69
-82            android:value="ca-app-pub-################~##########" />
-82-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:73:13-67
-83        <meta-data
-83-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:74:9-76:57
-84            android:name="preloaded_fonts"
-84-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:75:13-43
-85            android:resource="@array/preloaded_fonts" />
-85-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:76:13-54
-86
-87        <activity
-87-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-17:20
-88            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_MoreTrivia"
-88-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-97
-89            android:exported="false"
-89-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
-90            android:screenOrientation="userPortrait" >
-90-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-53
-91            <meta-data
-91-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-92                android:name="android.app.lib_name"
-92-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-93                android:value="" />
-93-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-94        </activity>
-95        <activity
-95-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-25:20
-96            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia"
-96-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-93
-97            android:exported="false"
-97-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
-98            android:screenOrientation="userPortrait" >
-98-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-53
-99            <meta-data
-99-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-100                android:name="android.app.lib_name"
-100-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-101                android:value="" />
-101-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-102        </activity>
-103        <activity
-103-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
-104            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription"
-104-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-101
-105            android:exported="false"
-105-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
-106            android:screenOrientation="userPortrait" >
-106-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-53
-107            <meta-data
-107-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-108                android:name="android.app.lib_name"
-108-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-109                android:value="" />
-109-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-110        </activity>
-111        <activity
-111-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-41:20
-112            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
-112-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-92
-113            android:exported="false"
-113-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
-114            android:screenOrientation="userPortrait" >
-114-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-53
-115            <meta-data
-115-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-116                android:name="android.app.lib_name"
-116-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-117                android:value="" />
-117-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-118        </activity>
-119        <activity
-119-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-49:20
-120            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList"
-120-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-95
-121            android:exported="false"
-121-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
-122            android:screenOrientation="userPortrait" >
-122-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-53
-123            <meta-data
-123-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:22:13-24:36
-124                android:name="android.app.lib_name"
-124-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:23:17-52
-125                android:value="" />
-125-->C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\app\src\main\AndroidManifest.xml:24:17-33
-126        </activity>
-127
-128        <provider
-128-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mike\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
-129            android:name="com.squareup.picasso.PicassoProvider"
-129-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mike\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
-130            android:authorities="com.example.pikakabatyasalitadictionary.com.squareup.picasso"
-130-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mike\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
-131            android:exported="false" />
-131-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mike\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
-132        <provider
-132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-133            android:name="androidx.startup.InitializationProvider"
-133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-134            android:authorities="com.example.pikakabatyasalitadictionary.androidx-startup"
-134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-135            android:exported="false" >
-135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-136            <meta-data
-136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-138                android:value="androidx.startup" />
-138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mike\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-139            <meta-data
-139-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-140-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-141                android:value="androidx.startup" />
-141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mike\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-142        </provider>
-143
-144        <uses-library
-144-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-145            android:name="androidx.window.extensions"
-145-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-146            android:required="false" />
-146-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-147        <uses-library
-147-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-148            android:name="androidx.window.sidecar"
-148-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-149            android:required="false" />
-149-->[androidx.window:window:1.0.0] C:\Users\Mike\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-150
-151        <service
-151-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
-152            android:name="androidx.room.MultiInstanceInvalidationService"
-152-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
-153            android:directBootAware="true"
-153-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
-154            android:exported="false" />
-154-->[androidx.room:room-runtime:2.4.3] C:\Users\Mike\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
-155    </application>
-156
-157</manifest>
+24-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:15:9-35
+25        android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
+25-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:16:9-65
+26        <activity
+26-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:18:9-25:20
+27            android:name="com.example.pikakabatyasalitadictionary.MainActivity"
+27-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:19:13-41
+28            android:exported="false"
+28-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:21:13-37
+29            android:screenOrientation="userPortrait" >
+29-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:20:13-53
+30            <meta-data
+30-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+31                android:name="android.app.lib_name"
+31-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+32                android:value="" />
+32-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+33        </activity>
+34        <activity
+34-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:26:9-35:20
+35            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_Home"
+35-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:27:13-51
+36            android:exported="false"
+36-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:29:13-37
+37            android:label="@string/title_activity_home"
+37-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:30:13-56
+38            android:screenOrientation="userPortrait"
+38-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:28:13-53
+39            android:theme="@style/Theme.PikakabatYaSalitaDictionary.NoActionBar" >
+39-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:31:13-81
+40            <meta-data
+40-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+42                android:value="" />
+42-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:36:9-39:56
+45            android:name="com.example.pikakabatyasalitadictionary.PangtoEnglishDiscription"
+45-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:37:13-53
+46            android:exported="false"
+46-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:38:13-37
+47            android:parentActivityName="com.example.pikakabatyasalitadictionary.Dictionary" />
+47-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:39:13-53
+48        <activity
+48-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:40:9-42:40
+49            android:name="com.example.pikakabatyasalitadictionary.SavedWords"
+49-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:41:13-39
+50            android:exported="false" />
+50-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:42:13-37
+51        <activity
+51-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:43:9-45:40
+52            android:name="com.example.pikakabatyasalitadictionary.Recent"
+52-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:44:13-35
+53            android:exported="false" />
+53-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:45:13-37
+54        <activity
+54-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:46:9-48:40
+55            android:name="com.example.pikakabatyasalitadictionary.TriviaInPangasinan"
+55-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:47:13-47
+56            android:exported="false" />
+56-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:48:13-37
+57        <activity
+57-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:49:9-51:40
+58            android:name="com.example.pikakabatyasalitadictionary.Dictionary"
+58-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:50:13-39
+59            android:exported="false" />
+59-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:51:13-37
+60        <activity
+60-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:52:9-55:47
+61            android:name="com.example.pikakabatyasalitadictionary.About"
+61-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:53:13-34
+62            android:exported="false"
+62-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:54:13-37
+63            android:launchMode="singleTask" />
+63-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:55:13-44
+64        <activity
+64-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:56:9-59:47
+65            android:name="com.example.pikakabatyasalitadictionary.Dashboard"
+65-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:57:13-38
+66            android:exported="false"
+66-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:58:13-37
+67            android:launchMode="singleTask" />
+67-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:59:13-44
+68        <activity
+68-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:60:9-69:20
+69            android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_SplashScreen"
+69-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:61:13-59
+70            android:exported="true"
+70-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:63:13-36
+71            android:screenOrientation="userPortrait" >
+71-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:62:13-53
+72            <intent-filter>
+72-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:64:13-68:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:65:17-69
+73-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:65:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:67:17-77
+75-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:67:27-74
+76            </intent-filter>
+77        </activity>
+78
+79        <meta-data
+79-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:71:9-73:70
+80            android:name="com.google.android.gms.ads.APPLICATION_ID"
+80-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:72:13-69
+81            android:value="ca-app-pub-################~##########" />
+81-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:73:13-67
+82        <meta-data
+82-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:74:9-76:57
+83            android:name="preloaded_fonts"
+83-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:75:13-43
+84            android:resource="@array/preloaded_fonts" />
+84-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:76:13-54
+85
+86        <activity
+86-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-17:20
+87            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_MoreTrivia"
+87-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-97
+88            android:exported="false"
+88-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+89            android:screenOrientation="userPortrait" >
+89-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-53
+90            <meta-data
+90-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+91                android:name="android.app.lib_name"
+91-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+92                android:value="" />
+92-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+93        </activity>
+94        <activity
+94-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-25:20
+95            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia"
+95-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-93
+96            android:exported="false"
+96-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+97            android:screenOrientation="userPortrait" >
+97-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-53
+98            <meta-data
+98-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+99                android:name="android.app.lib_name"
+99-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+100                android:value="" />
+100-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+101        </activity>
+102        <activity
+102-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
+103            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription"
+103-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-101
+104            android:exported="false"
+104-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+105            android:screenOrientation="userPortrait" >
+105-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-53
+106            <meta-data
+106-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+107                android:name="android.app.lib_name"
+107-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+108                android:value="" />
+108-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+109        </activity>
+110        <activity
+110-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-41:20
+111            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
+111-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-92
+112            android:exported="false"
+112-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+113            android:screenOrientation="userPortrait" >
+113-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-53
+114            <meta-data
+114-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+115                android:name="android.app.lib_name"
+115-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+116                android:value="" />
+116-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+117        </activity>
+118        <activity
+118-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-49:20
+119            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList"
+119-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-95
+120            android:exported="false"
+120-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+121            android:screenOrientation="userPortrait" >
+121-->[:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-53
+122            <meta-data
+122-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:22:13-24:36
+123                android:name="android.app.lib_name"
+123-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:23:17-52
+124                android:value="" />
+124-->C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:24:17-33
+125        </activity>
+126
+127        <provider
+127-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rodz\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+128            android:name="com.squareup.picasso.PicassoProvider"
+128-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rodz\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+129            android:authorities="com.example.pikakabatyasalitadictionary.com.squareup.picasso"
+129-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rodz\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+130            android:exported="false" />
+130-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rodz\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+131        <provider
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+132            android:name="androidx.startup.InitializationProvider"
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+133            android:authorities="com.example.pikakabatyasalitadictionary.androidx-startup"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+134            android:exported="false" >
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+135            <meta-data
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+137                android:value="androidx.startup" />
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Rodz\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Rodz\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Rodz\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+140                android:value="androidx.startup" />
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Rodz\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+141        </provider>
+142
+143        <uses-library
+143-->[androidx.window:window:1.0.0] C:\Users\Rodz\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.0.0] C:\Users\Rodz\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.0.0] C:\Users\Rodz\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+146        <uses-library
+146-->[androidx.window:window:1.0.0] C:\Users\Rodz\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.0.0] C:\Users\Rodz\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0] C:\Users\Rodz\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+149
+150        <service
+150-->[androidx.room:room-runtime:2.4.3] C:\Users\Rodz\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+151            android:name="androidx.room.MultiInstanceInvalidationService"
+151-->[androidx.room:room-runtime:2.4.3] C:\Users\Rodz\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+152            android:directBootAware="true"
+152-->[androidx.room:room-runtime:2.4.3] C:\Users\Rodz\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+153            android:exported="false" />
+153-->[androidx.room:room-runtime:2.4.3] C:\Users\Rodz\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+154    </application>
+155
+156</manifest>

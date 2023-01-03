@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_700"
-    tools:context=".Fragment.Fragment_Dashboard">
+    tools:context=".Fragment.Fragment_Dashboard"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/tools ">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
