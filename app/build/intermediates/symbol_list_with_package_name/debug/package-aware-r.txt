@@ -76,10 +76,6 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
-array com_google_android_gms_fonts_certs
-array com_google_android_gms_fonts_certs_dev
-array com_google_android_gms_fonts_certs_prod
-array preloaded_fonts
 attr SharedValue
 attr SharedValueId
 attr action
@@ -2609,6 +2605,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable about_banner
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2646,7 +2643,6 @@ drawable ic_dictionary
 drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2742,9 +2738,7 @@ drawable side_nav_bar
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable trivia
 drawable trivia_salt
-font archivo
 font archivo_black
 font archivo_black_italic
 font archivo_bold
@@ -2870,7 +2864,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btmenu
 id btnBookMark
 id btnMore
 id btnNegative
@@ -2879,8 +2872,6 @@ id btnRemove
 id btnSearchE2P
 id btnSearchP2E
 id btnSpeech
-id button
-id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3010,6 +3001,8 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
+id imageView4
 id img_header
 id img_trivia
 id immediateStop
@@ -3147,9 +3140,6 @@ id outward
 id overshoot
 id packed
 id pangeng
-id pangtoeng
-id pangtoengdiscription
-id pangtoengwordlistview
 id parallax
 id parent
 id parentPanel
@@ -3171,7 +3161,6 @@ id ratio
 id rcv_samples
 id rcv_translate
 id rectangles
-id recycler_view
 id recyclerview
 id reverseSawtooth
 id right
@@ -3267,10 +3256,14 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_view
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3443,19 +3436,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_about
-layout activity_dashboard
-layout activity_dictionary
 layout activity_home
-layout activity_main
 layout activity_more_trivia
-layout activity_pangto_english_discription
-layout activity_recent
-layout activity_saved_words
 layout activity_search
 layout activity_splash_screen
 layout activity_trivia
-layout activity_trivia_in_pangasinan
 layout activity_word_description
 layout activity_word_list
 layout app_bar_activity_home
@@ -3482,7 +3467,6 @@ layout fragment_dashboard
 layout fragment_recent_words
 layout fragment_trivia
 layout fragment_word_list
-layout item_drawer_main
 layout list_item_bookmark
 layout list_item_description_infos
 layout list_item_recent
@@ -3491,8 +3475,6 @@ layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
 layout m3_auto_complete_simple_item
-layout main_nav_drawer
-layout main_toolbar
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3554,8 +3536,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout pangtoeng
-layout pangtoengrow
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3617,6 +3597,11 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string lblAbout
+string lblAuthor
+string lblAuthors
+string lblCapstoneProject
+string lbl_version_place_holder
 string lorem_ipsum
 string lorem_ipsum_qoute
 string m3_sys_motion_easing_emphasized

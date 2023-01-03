@@ -79,7 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Mike\Downloads\inside_logo.png" />
+                                                <entry key="imagePath" value="C:\Users\Mike\Downloads\pysd_logo.png" />
                                                 <entry key="scalingPercent" value="90" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
@@ -318,8 +318,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_broken_image_24" />
-                            <entry key="sourceFile" value="C:\Users\Mike\Downloads\idea-bulb-glow-svgrepo-com.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="pysd_logo" />
+                            <entry key="sourceFile" value="C:\Users\Mike\Downloads\Component 1logo.svg" />
                           </map>
                         </option>
                       </PersistentState>

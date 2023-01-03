@@ -16,14 +16,6 @@
         android:theme="@style/Theme.PikakabatYaSalitaDictionary"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="userPortrait"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Activity.Activity_Home"
             android:screenOrientation="userPortrait"
             android:exported="false"
@@ -33,30 +25,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".PangtoEnglishDiscription"
-            android:exported="false"
-            android:parentActivityName=".Dictionary" />
-        <activity
-            android:name=".SavedWords"
-            android:exported="false" />
-        <activity
-            android:name=".Recent"
-            android:exported="false" />
-        <activity
-            android:name=".TriviaInPangasinan"
-            android:exported="false" />
-        <activity
-            android:name=".Dictionary"
-            android:exported="false" />
-        <activity
-            android:name=".About"
-            android:exported="false"
-            android:launchMode="singleTask" />
-        <activity
-            android:name=".Dashboard"
-            android:exported="false"
-            android:launchMode="singleTask" />
         <activity
             android:name=".Activity.Activity_SplashScreen"
             android:screenOrientation="userPortrait"
@@ -71,9 +39,6 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-################~##########" />
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

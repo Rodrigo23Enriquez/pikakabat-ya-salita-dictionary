@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pikakabatyasalitadictionary"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="PYSD Build 1.1.0001" >
 
     <uses-sdk
         android:minSdkVersion="28"
@@ -24,14 +24,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PikakabatYaSalitaDictionary" >
         <activity
-            android:name="com.example.pikakabatyasalitadictionary.MainActivity"
-            android:exported="false"
-            android:screenOrientation="userPortrait" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_Home"
             android:exported="false"
             android:label="@string/title_activity_home"
@@ -41,30 +33,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.PangtoEnglishDiscription"
-            android:exported="false"
-            android:parentActivityName="com.example.pikakabatyasalitadictionary.Dictionary" />
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.SavedWords"
-            android:exported="false" />
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.Recent"
-            android:exported="false" />
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.TriviaInPangasinan"
-            android:exported="false" />
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.Dictionary"
-            android:exported="false" />
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.About"
-            android:exported="false"
-            android:launchMode="singleTask" />
-        <activity
-            android:name="com.example.pikakabatyasalitadictionary.Dashboard"
-            android:exported="false"
-            android:launchMode="singleTask" />
         <activity
             android:name="com.example.pikakabatyasalitadictionary.Activity.Activity_SplashScreen"
             android:exported="true"
@@ -79,9 +47,6 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-################~##########" />
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_MoreTrivia"
