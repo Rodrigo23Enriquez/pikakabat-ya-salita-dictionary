@@ -24,11 +24,13 @@ import android.widget.Toast;
 import com.google.android.material.tabs.TabLayout;
 
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
+import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterDescriptionInfos;
 import org.sticollegeandroidprojects.dictionary.R;
 import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 
@@ -51,6 +53,8 @@ public class Activity_WordList extends AppCompatActivity {
     private TextView lblWord, lblType, lblPrnc, lblDesc, lblNoRcd;
     private ImageButton btnSave, btnListen;
     private RecyclerView rcvTranslate, rcvSamples;
+
+    private List<RWord.RecentWord> poRecents;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,6 +121,7 @@ public class Activity_WordList extends AppCompatActivity {
 
         mViewModel.GetRecentList(lnType).observe(Activity_WordList.this, recentWords -> {
             try{
+                poRecents = recentWords;
                 if(recentWords.size() > 0) {
                     if(!getIntent().hasExtra("sWordIDxx")) {
                         PreviewResult(recentWords.get(0).sWordIDxx);
@@ -130,28 +135,29 @@ public class Activity_WordList extends AppCompatActivity {
                     for (int x = 0; x < recentWords.size(); x++) {
                         tabLayout.addTab(tabLayout.newTab().setText(recentWords.get(x).sWordName));
                     }
-
-                    tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-                        @Override
-                        public void onTabSelected(TabLayout.Tab tab) {
-                            PreviewResult(recentWords.get(tab.getPosition()).sWordIDxx);
-                        }
-
-                        @Override
-                        public void onTabUnselected(TabLayout.Tab tab) {
-
-                        }
-
-                        @Override
-                        public void onTabReselected(TabLayout.Tab tab) {
-
-                        }
-                    });
                 } else {
                     tabLayout.setVisibility(View.GONE);
                 }
             } catch (Exception e){
                 e.printStackTrace();
+            }
+        });
+
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                Log.d(TAG, String.valueOf(tab.getPosition()));
+                PreviewResult(poRecents.get(tab.getPosition()).sWordIDxx);
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
             }
         });
     }

@@ -1,79 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\main_nav_drawer.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\main_nav_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_dictionary.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_dictionary.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\main_toolbar.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\main_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\pangtoeng.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\pangtoeng.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_home.xml",
         "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_saved_words.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_saved_words.xml"
-    },
-    {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\content_activity_home.xml",
         "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\content_activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_trivia_in_pangasinan.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_trivia_in_pangasinan.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\nav_header_activity_home.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\nav_header_activity_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\item_drawer_main.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\item_drawer_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\pangtoengrow.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\pangtoengrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_pangto_english_discription.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_pangto_english_discription.xml"
-    },
-    {
-        "merged": "com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:/layout/fragment_dashboard.xml",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/fragment_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_recent.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_recent.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_dashboard.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_about.xml",
-        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_about.xml"
+        "merged": "com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:/layout/fragment_about.xml",
+        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/fragment_about.xml"
     },
     {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\fragment_about.xml",
         "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\nav_header_activity_home.xml",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\nav_header_activity_home.xml"
     },
     {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\app_bar_activity_home.xml",
