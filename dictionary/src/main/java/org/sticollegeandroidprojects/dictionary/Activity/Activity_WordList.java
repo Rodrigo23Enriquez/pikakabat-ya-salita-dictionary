@@ -4,12 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.NestedScrollView;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.media.AudioAttributes;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -23,11 +21,10 @@ import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
 
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterDescriptionInfos;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
+import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMWordList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -84,6 +81,9 @@ public class Activity_WordList extends AppCompatActivity {
 
         mViewModel.GetWordsList(lnType).observe(Activity_WordList.this, eDictionaryWords -> {
             try{
+
+                //List<EDictionaryWords>/eDictionaryWords -
+                // contains and object that contains all information about the word being search.
                 ArrayList<String> loList = new ArrayList<>();
                 for (int x = 0; x < eDictionaryWords.size(); x++){
                     loList.add(eDictionaryWords.get(x).getWordName());
@@ -93,7 +93,13 @@ public class Activity_WordList extends AppCompatActivity {
                 txtSearch.setAdapter(loAdapter);
 
                 txtSearch.setOnItemClickListener((parent, view, position, id) -> {
+
+                    //Onclick only triggers the suggested word to be set on TextField
+                    //Get the selected text on suggestions
                     String lsSelectd = txtSearch.getText().toString();
+
+                    //To scan the values inside the list and to check which one has the
+                    // same value selected by the user from the suggestions
                     for(int x = 0; x < eDictionaryWords.size(); x++){
                         if(lsSelectd.equalsIgnoreCase(eDictionaryWords.get(x).getWordName())){
                             lsSelectd = eDictionaryWords.get(x).getWordIDxx();
@@ -122,6 +128,8 @@ public class Activity_WordList extends AppCompatActivity {
         mViewModel.GetRecentList(lnType).observe(Activity_WordList.this, recentWords -> {
             try{
                 poRecents = recentWords;
+
+                //Validation of word searches
                 if(recentWords.size() > 0) {
                     if(!getIntent().hasExtra("sWordIDxx")) {
                         PreviewResult(recentWords.get(0).sWordIDxx);

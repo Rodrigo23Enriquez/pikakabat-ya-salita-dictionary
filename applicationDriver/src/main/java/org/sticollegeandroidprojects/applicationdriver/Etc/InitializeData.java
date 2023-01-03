@@ -1,4 +1,4 @@
-package org.sticollegeandroidprojects.applicationdriver.Etc.Dialog;
+package org.sticollegeandroidprojects.applicationdriver.Etc;
 
 import org.sticollegeandroidprojects.applicationdriver.database.Entity.EDictionaryWords;
 import org.sticollegeandroidprojects.applicationdriver.database.Entity.ETrivia;

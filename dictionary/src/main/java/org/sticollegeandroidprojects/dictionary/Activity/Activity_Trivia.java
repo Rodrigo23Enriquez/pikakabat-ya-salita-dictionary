@@ -8,14 +8,13 @@ import androidx.lifecycle.ViewModelProvider;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 import com.squareup.picasso.Picasso;
 
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.ViewModel.VMTrivia;
+import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMTrivia;
 
 public class Activity_Trivia extends AppCompatActivity {
 

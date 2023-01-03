@@ -1,4 +1,4 @@
-package org.sticollegeandroidprojects.dictionary.ViewModel;
+package org.sticollegeandroidprojects.dictionary.Fragment.ViewModel;
 
 import android.app.Application;
 import android.os.AsyncTask;
