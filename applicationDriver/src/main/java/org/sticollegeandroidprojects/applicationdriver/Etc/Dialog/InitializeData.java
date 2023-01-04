@@ -257,7 +257,7 @@ public class InitializeData {
         loDetail.setWordName("Idamay");
         loDetail.setPrnction("I-da-may");
         loDetail.setWordType("Verb");
-        loDetail.setDescript("        (of a situation or event) include (something) as a necessary part or result.");
+        loDetail.setDescript("(of a situation or event) include (something) as a necessary part or result.");
         loDetail.setTransLte("Involve");
         loDetail.setInfoxxxx("Idamay ta ka, I will involve you");
         loDetail.setDctnryTp(0);
@@ -514,22 +514,22 @@ public class InitializeData {
         poList.add(loDetail);
 
         loDetail = new EDictionaryWords();
-        loDetail.setWordName("Retrive");
-        loDetail.setPrnction("Re-trieve");
+        loDetail.setWordName("Taking");
+        loDetail.setPrnction("Tak-ing");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Retrieval,  Collective");
-        loDetail.setTransLte("public String DATE_MODIFIED = new SimpleDateFormat(yyyy-MM-dd HH:mm:ss, Locale.getDefault()).format(new Date());");
-        loDetail.setInfoxxxx("public String DATE_MODIFIED = new SimpleDateFormat(yyyy-MM-dd HH:mm:ss, Locale.getDefault()).format(new Date());");
+        loDetail.setTransLte("Bawien,  Alaen");
+        loDetail.setInfoxxxx("You are taking my glasses, Aalaen mo may salming ko");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
         loDetail = new EDictionaryWords();
-        loDetail.setWordName("Topic");
-        loDetail.setPrnction("To-pic");
+        loDetail.setWordName("Studying");
+        loDetail.setPrnction("Stud-ying");
         loDetail.setWordType("Noun");
         loDetail.setDescript("Subject to be studied");
-        loDetail.setTransLte("Bawien,  Alaen");
-        loDetail.setInfoxxxx("Retrieve the lost money, Bawien amay kuarta ya abalang");
+        loDetail.setTransLte("Aaralen");
+        loDetail.setInfoxxxx("I have a lot of subjects to be studied, Dakel ya aaralen kon sabdyik");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -538,8 +538,8 @@ public class InitializeData {
         loDetail.setPrnction("S-chool-Buil-ding");
         loDetail.setWordType("Noun");
         loDetail.setDescript("An institution for educating");
-        loDetail.setTransLte("Pakdaar, Topiko");
-        loDetail.setInfoxxxx("The topic is all about animals, Amay topiko et tungkol diad amin ya ayep");
+        loDetail.setTransLte("Abong-Aralan");
+        loDetail.setInfoxxxx("Manaral tayo ed abong-aralan, Lets study in school building");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -548,18 +548,18 @@ public class InitializeData {
         loDetail.setPrnction("Wake-up");
         loDetail.setWordType("Verb");
         loDetail.setDescript("An instance of a person waking up or being woken up");
-        loDetail.setTransLte("Abong-aralan");
-        loDetail.setInfoxxxx("Lets study in school building, Manaral tayo ed abong-aralan");
+        loDetail.setTransLte("Bangon");
+        loDetail.setInfoxxxx("You have to wake up early in the morning, Bangon kay masapbay no kabwasan");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
         loDetail = new EDictionaryWords();
-        loDetail.setWordName("Path");
-        loDetail.setPrnction("Path");
+        loDetail.setWordName("Pathway");
+        loDetail.setPrnction("Path-way");
         loDetail.setWordType("Noun");
         loDetail.setDescript("A narrow way, typically having walls on either side, allowing access between buildings or to different rooms within a building; a passageway.");
-        loDetail.setTransLte("Bangon");
-        loDetail.setInfoxxxx("You have to wake up early in the morning, Bangon kay masapbay no kabwasan");
+        loDetail.setTransLte("Dalanan");
+        loDetail.setInfoxxxx("Mangiter kimet ya dalanan mi, Give us a pathway");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -568,8 +568,8 @@ public class InitializeData {
         loDetail.setPrnction("Vi-si-tor");
         loDetail.setWordType("Noun");
         loDetail.setDescript("A person who moves from one place to another");
-        loDetail.setTransLte("Melag ya dala");
-        loDetail.setInfoxxxx("Follow the path, Tumbok moy melag ya dalan");
+        loDetail.setTransLte("Dayo");
+        loDetail.setInfoxxxx("We have alot of visitor in our barangay, Dakel ya dayo jad barangay mi");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -578,8 +578,8 @@ public class InitializeData {
         loDetail.setPrnction("Lis-ten");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Give ones attention to a sound.");
-        loDetail.setTransLte("Dayo");
-        loDetail.setInfoxxxx("We have alot of visitor in our barangay, Dakel ya dayo jad barangay mi");
+        loDetail.setTransLte("Dengel");
+        loDetail.setInfoxxxx("Listen to what my heart is saying, Dengel moy ibabaga ya pusom");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -588,8 +588,8 @@ public class InitializeData {
         loDetail.setPrnction("Give");
         loDetail.setWordType("Verb");
         loDetail.setDescript("An act or instance of handing something over.");
-        loDetail.setTransLte("Dengel");
-        loDetail.setInfoxxxx("Listen to what my heart is saying, Dengel moy ibabaga ya pusom");
+        loDetail.setTransLte("Ikdan");
+        loDetail.setInfoxxxx("Give her blanket, Ikdan moy oles");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -598,8 +598,8 @@ public class InitializeData {
         loDetail.setPrnction("O-ver-there");
         loDetail.setWordType("Verb");
         loDetail.setDescript("In, at, or to that place or position.");
-        loDetail.setTransLte("Ikdan");
-        loDetail.setInfoxxxx("Give her blanket, Ikdan moy oles");
+        loDetail.setTransLte("Diman");
+        loDetail.setInfoxxxx("Over there is the I.T department, Diman so departamento ya I.T");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -608,8 +608,8 @@ public class InitializeData {
         loDetail.setPrnction("Two");
         loDetail.setWordType("Noun");
         loDetail.setDescript("Two people, or things");
-        loDetail.setTransLte("Diman");
-        loDetail.setInfoxxxx("Over there is the I.T department, Diman so departamento ya I.T");
+        loDetail.setTransLte("Duara");
+        loDetail.setInfoxxxx("Two pieces of paper, Duaran piraso ya papel");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -618,8 +618,8 @@ public class InitializeData {
         loDetail.setPrnction("Pick-up");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Take hold of and lift or move someone or something.");
-        loDetail.setTransLte("Duara");
-        loDetail.setInfoxxxx("Two pieces of paper, Duara ya piraso ya papel");
+        loDetail.setTransLte("Dukduk");
+        loDetail.setInfoxxxx("Kindly pick up the thing that i drop, Dukduk mo pa tay naplag ko");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -628,8 +628,8 @@ public class InitializeData {
         loDetail.setPrnction("Field-hand");
         loDetail.setWordType("Noun");
         loDetail.setDescript("A person who owns or manages a farm.");
-        loDetail.setTransLte("Dukduk");
-        loDetail.setInfoxxxx("Kindly pick up the thing that i drop, Dukduk mo pa tay naplag ko");
+        loDetail.setTransLte("Dumaralos");
+        loDetail.setInfoxxxx("My father is a fieldhand, Dumaralos so amak");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -638,8 +638,8 @@ public class InitializeData {
         loDetail.setPrnction("Rep-ly");
         loDetail.setWordType("Noun");
         loDetail.setDescript("Say something in response to something someone has said.");
-        loDetail.setTransLte("Dumaralos");
-        loDetail.setInfoxxxx("My father is a fieldhand, Dumaralos so amak");
+        loDetail.setTransLte("Ebat");
+        loDetail.setInfoxxxx("Reply on my message, Ebatan mo so mensahek");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -648,18 +648,18 @@ public class InitializeData {
         loDetail.setPrnction("E-ject");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Take (something) away or off from the position occupied");
-        loDetail.setTransLte("Ebat");
-        loDetail.setInfoxxxx("Reply on my message, Ebatan mo so mensahek");
+        loDetail.setTransLte("Bagut");
+        loDetail.setInfoxxxx("Eject the wire, Pagiten mo may kable");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
         loDetail = new EDictionaryWords();
-        loDetail.setWordName("Shut off");
-        loDetail.setPrnction("Shut-off");
+        loDetail.setWordName("Turn off");
+        loDetail.setPrnction("Turn-off");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Stop the operation or flow of something by means of a valve, switch, or button.");
-        loDetail.setTransLte("Bagut");
-        loDetail.setInfoxxxx("Eject the wire, Pagiten mo may kable");
+        loDetail.setTransLte("Erep");
+        loDetail.setInfoxxxx("Turn off the light, Erep mo may silew");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -668,8 +668,8 @@ public class InitializeData {
         loDetail.setPrnction("Mo-tion");
         loDetail.setWordType("Noun");
         loDetail.setDescript("An act of changing physical location or position or of having this changed.");
-        loDetail.setTransLte("Erep");
-        loDetail.setInfoxxxx("Shut off the light, Erep mo may silew");
+        loDetail.setTransLte("Kiwas, Galaw");
+        loDetail.setInfoxxxx("Walking is a motion, Say panag akar et sakey ya galaw");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -678,8 +678,8 @@ public class InitializeData {
         loDetail.setPrnction("Sa-ri-sa-ri-s-tore");
         loDetail.setWordType("Noun");
         loDetail.setDescript("A small store selling groceries and a limited range of household goods in a mainly residential area.");
-        loDetail.setTransLte("Kiwas, Galaw");
-        loDetail.setInfoxxxx("Walking is a motion, Say panag akar et sakey ya galaw");
+        loDetail.setTransLte("Garita");
+        loDetail.setInfoxxxx("Buy foods in the sari-sari store, Mangaliw kay naakan dia ed");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -688,8 +688,8 @@ public class InitializeData {
         loDetail.setPrnction("Was-ter");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("Recklessly extravagant or wasteful in the use of resources.");
-        loDetail.setTransLte("Lakuan, Garita");
-        loDetail.setInfoxxxx("Buy foods in the sari-sari store, Mangaliw kay naakan dia ed");
+        loDetail.setTransLte("Gastador");
+        loDetail.setInfoxxxx("He is rich that's why he is a waster, Mayaman katon gastador");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -697,9 +697,9 @@ public class InitializeData {
         loDetail.setWordName("Scarcity");
         loDetail.setPrnction("S-car-ci-ty");
         loDetail.setWordType("Noun");
-        loDetail.setDescript("A time of hardship. Stretch out an arm in a specified direction in order to touch or grasp something");
-        loDetail.setTransLte("Gastador");
-        loDetail.setInfoxxxx("He is rich thats why he is a waster, Mayaman katon gastador");
+        loDetail.setDescript("A time of hardship.");
+        loDetail.setTransLte("Gawat, Iyarap");
+        loDetail.setInfoxxxx("It is time of scarcity, Agew kasi ya gawat");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -708,8 +708,8 @@ public class InitializeData {
         loDetail.setPrnction("Hu-e-teng");
         loDetail.setWordType("Noun");
         loDetail.setDescript("An illegal numbers game similar to lotto");
-        loDetail.setTransLte("Katalag, Karaiset");
-        loDetail.setInfoxxxx("Scarcity of the product, Katalag to may produkto");
+        loDetail.setTransLte("Jueteng");
+        loDetail.setInfoxxxx("Avoid playing jueteng, Iyagel so pangalaw ya huesteng");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -718,8 +718,8 @@ public class InitializeData {
         loDetail.setPrnction("Es-cort");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Go somewhere with (someone) as a companion or escort.");
-        loDetail.setTransLte("Jueteng");
-        loDetail.setInfoxxxx("Avoid playing jueteng, Iyagel so pangalaw ya huesteng");
+        loDetail.setTransLte("Ibaan, Ipaatnubang");
+        loDetail.setInfoxxxx("Escort the visitor, Itulor mo imay bisita");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -728,8 +728,8 @@ public class InitializeData {
         loDetail.setPrnction("Pour");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Cause a liquid to flow from a container into a cup or other vessel.");
-        loDetail.setTransLte("Ibaan, Ipaatnubang");
-        loDetail.setInfoxxxx("Escort the visitor, Itulor mo imay bisita");
+        loDetail.setTransLte("Ibales, Kalboan, Balesan");
+        loDetail.setInfoxxxx("Pour the water in the container, Ibales mo may danom ta kargaan");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -738,8 +738,8 @@ public class InitializeData {
         loDetail.setPrnction("Teach");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Show or explain to (someone) how to do something.");
-        loDetail.setTransLte("Ibales, Kalboan, Balesan");
-        loDetail.setInfoxxxx("Pour the water in the container, Ibales mo may danom ta kargaan");
+        loDetail.setTransLte("Ibangat");
+        loDetail.setInfoxxxx("I will teach you to cook, Bangatan ta ka ya manluto");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -748,8 +748,8 @@ public class InitializeData {
         loDetail.setPrnction("Re-lease");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Allow or enable to escape from confinement; set free.");
-        loDetail.setTransLte("Ibangat");
-        loDetail.setInfoxxxx("I will teach you to cook, Bangatan ta ka ya manluto");
+        loDetail.setTransLte("Ibulos");
+        loDetail.setInfoxxxx("The prisoner was released yesterday, Imbulos da la karuman may preso");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -758,8 +758,8 @@ public class InitializeData {
         loDetail.setPrnction("In-volve");
         loDetail.setWordType("Verb");
         loDetail.setDescript("(of a situation or event) include (something) as a necessary part or result.");
-        loDetail.setTransLte("Ibulos");
-        loDetail.setInfoxxxx("The prisoner was released yesterday, Imbulos da la karuman may preso");
+        loDetail.setTransLte("Damay");
+        loDetail.setInfoxxxx("Do not involve me, Agmo ak idadamay");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -768,8 +768,8 @@ public class InitializeData {
         loDetail.setPrnction("Be-ve-rage");
         loDetail.setWordType("Noun");
         loDetail.setDescript("Take (a liquid) into the mouth and swallow.");
-        loDetail.setTransLte("Ilanor");
-        loDetail.setInfoxxxx("Do not involve me, Agmo ak idadamay");
+        loDetail.setTransLte("Iinomen");
+        loDetail.setInfoxxxx("Choose a beverage, Manpili kay iinomen");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -778,8 +778,8 @@ public class InitializeData {
         loDetail.setPrnction("Bu-ry");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Put or hide under ground.");
-        loDetail.setTransLte("Iinomen");
-        loDetail.setInfoxxxx("Choose a beverage, Manpili kay iinomen");
+        loDetail.setTransLte("Ikutkut");
+        loDetail.setInfoxxxx("Bury the dead chicken, Ikutkut mo tay inatey ya manok");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -788,8 +788,8 @@ public class InitializeData {
         loDetail.setPrnction("Sell");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Give or hand over (something) in exchange for money.");
-        loDetail.setTransLte("Ikutkut");
-        loDetail.setInfoxxxx("Bury the dead chicken, Ikutkut mo tay inatey ya manok");
+        loDetail.setTransLte("Ilako");
+        loDetail.setInfoxxxx("Buy products that you would sell, Mangaliw ka pa ilakom");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -798,8 +798,8 @@ public class InitializeData {
         loDetail.setPrnction("Ca-rry-a-long");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Carry something along (with someone) to bring or take something with one; to have something with one and have it handy at all times");
-        loDetail.setTransLte("Ilako");
-        loDetail.setInfoxxxx("Buy products that you would sell, Mangaliw ka pa ilakom");
+        loDetail.setTransLte("Ilugan");
+        loDetail.setInfoxxxx("Carry along the boxes of canned goods, Ilugan mo ira may kahon ya delata");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -808,8 +808,8 @@ public class InitializeData {
         loDetail.setPrnction("Fe-ver");
         loDetail.setWordType("Noun");
         loDetail.setDescript("A rise of body temperature above the norma");
-        loDetail.setTransLte("Ilugan");
-        loDetail.setInfoxxxx("Carry along the boxes of canned goods, Ilugan mo ira may kahon ya delata");
+        loDetail.setTransLte("Petang");
+        loDetail.setInfoxxxx("The child has a fever, Manpepetang may ugaw");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -818,8 +818,8 @@ public class InitializeData {
         loDetail.setPrnction("Co-pied");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("Make a similar or identical version of reproduce.");
-        loDetail.setTransLte("Petang");
-        loDetail.setInfoxxxx("The child has a fever, Maniinagem may ugaw");
+        loDetail.setTransLte("Inalig");
+        loDetail.setInfoxxxx("He copied my answer, Inalig toy sagot ko");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -828,8 +828,8 @@ public class InitializeData {
         loDetail.setPrnction("Dead");
         loDetail.setWordType("Noun");
         loDetail.setDescript("No longer alive.");
-        loDetail.setTransLte("Inalig");
-        loDetail.setInfoxxxx("He copied my answer, Inalig toy sagot ko");
+        loDetail.setTransLte("Inatey");
+        loDetail.setInfoxxxx("The dead animals, Inatey ya ayep");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -838,7 +838,7 @@ public class InitializeData {
         loDetail.setPrnction("Wealth");
         loDetail.setWordType("Noun");
         loDetail.setDescript("The state of being rich,  material prosperity.");
-        loDetail.setTransLte("Inatey");
+        loDetail.setTransLte("Kayamanan, Yaman");
         loDetail.setInfoxxxx("The dead animals, Inatey ya ayep");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
@@ -848,8 +848,8 @@ public class InitializeData {
         loDetail.setPrnction("S-tate-ment");
         loDetail.setWordType("Noun");
         loDetail.setDescript("A definite or clear expression of something in speech or writing.");
-        loDetail.setTransLte("Kayamanan, Yaman");
-        loDetail.setInfoxxxx("The countrys wealth comes from its oil, Mainawa ya bansa sengeg ed langis");
+        loDetail.setTransLte("Inbaga");
+        loDetail.setInfoxxxx("Base on the statement of the President, Basi ed inbaga ya Presidente");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -858,8 +858,8 @@ public class InitializeData {
         loDetail.setPrnction("Where");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("In or to what place or position.");
-        loDetail.setTransLte("Inbaga");
-        loDetail.setInfoxxxx("Base on the statement of the President, Basi ed inbaga ya Presidente");
+        loDetail.setTransLte("Iner");
+        loDetail.setInfoxxxx("Where you going?, Iner so laen mo?");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -868,8 +868,8 @@ public class InitializeData {
         loDetail.setPrnction("Give-a-way");
         loDetail.setWordType("Noun");
         loDetail.setDescript("The act of giving something away free");
-        loDetail.setTransLte("Iner");
-        loDetail.setInfoxxxx("Where you going?, Iner so laen mo?");
+        loDetail.setTransLte("Ipakerew");
+        loDetail.setInfoxxxx("Give away your old shoes, Ipakerew mo met la tay daan ya sapatos mo");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -878,8 +878,8 @@ public class InitializeData {
         loDetail.setPrnction("Lend");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Grant to (someone) the use of (something) on the understanding that it will be returned");
-        loDetail.setTransLte("Ipakerew");
-        loDetail.setInfoxxxx("Give away your old shoes, Ipakerew mo met la tay daan ya sapatos mo");
+        loDetail.setTransLte("Manpabayes, Manpautang");
+        loDetail.setInfoxxxx("Lend me your money, Ipaotang mod siyak so kwartam");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -888,28 +888,28 @@ public class InitializeData {
         loDetail.setPrnction("Point-out");
         loDetail.setWordType("Verb");
         loDetail.setDescript("To direct someones attention to (someone or something) by pointing");
-        loDetail.setTransLte("Manpabayes, Manpautang");
-        loDetail.setInfoxxxx("Lend me your money, Ipaotang mod siyak so kwartam");
-        loDetail.setDctnryTp(1);
-        poList.add(loDetail);
-
-        loDetail = new EDictionaryWords();
-        loDetail.setWordName("Sunshine");
-        loDetail.setPrnction("Sun-shine");
-        loDetail.setWordType("Noun");
-        loDetail.setDescript("Direct sunlight unbroken by cloud, especially over a comparatively large area. ");
         loDetail.setTransLte("Ituro");
         loDetail.setInfoxxxx("Policeman ask people to go out so that she could point out the suspect, Pinapaway ya pupulis iray totoo piyan naituro to so suspek");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
         loDetail = new EDictionaryWords();
-        loDetail.setWordName("Adore");
-        loDetail.setPrnction("A-dore");
+        loDetail.setWordName("Afternoon");
+        loDetail.setPrnction("Af-ter-noon");
+        loDetail.setWordType("Noun");
+        loDetail.setDescript("The time from noon or lunchtime to evening.");
+        loDetail.setTransLte("Ngarim");
+        loDetail.setInfoxxxx("I have watch the Afternoon show, Nan bantay ak ya ngarim ya programa");
+        loDetail.setDctnryTp(1);
+        poList.add(loDetail);
+
+        loDetail = new EDictionaryWords();
+        loDetail.setWordName("Love");
+        loDetail.setPrnction("lo-ve");
         loDetail.setWordType("Verb");
-        loDetail.setDescript("To worship or honor as a deity or as divine.");
-        loDetail.setTransLte("Kaagewan");
-        loDetail.setInfoxxxx("I have watch the noontime show, Nan bantay ak ya kaagewan ya programa");
+        loDetail.setDescript("An intense feeling of deep affection.");
+        loDetail.setTransLte("Inaro");
+        loDetail.setInfoxxxx("I love you, Inaro ta ka");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -918,8 +918,8 @@ public class InitializeData {
         loDetail.setPrnction("Eve-ning");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("The period of time at the end of the day, usually from about 6 p.m. to bedtime. ");
-        loDetail.setTransLte("Panangaro, Panlinkor");
-        loDetail.setInfoxxxx("Adore God, Panlingkoran so Diyos");
+        loDetail.setTransLte("Labi");
+        loDetail.setInfoxxxx("We went out for the evening, Pinmaway kami nen labi");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -928,8 +928,8 @@ public class InitializeData {
         loDetail.setPrnction("In-do-lent");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("Wanting to avoid activity or exertion; lazy.");
-        loDetail.setTransLte("Labi");
-        loDetail.setInfoxxxx("We went out for the evening, Pinmaway kami nen labi");
+        loDetail.setTransLte("Mangiras");
+        loDetail.setInfoxxxx("Indolent person knows nothing, Say mangiras ya too et anggapoy anta to");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -938,8 +938,8 @@ public class InitializeData {
         loDetail.setPrnction("Be-lieve");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Accept that (something) is true, especially without proof.");
-        loDetail.setTransLte("Mangiras");
-        loDetail.setInfoxxxx("Indolent person knows nothing, Say mangiras ya too et anggapoy anta to");
+        loDetail.setTransLte("Manisia");
+        loDetail.setInfoxxxx("Manisia ak ed sika, I believe in you");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -948,8 +948,8 @@ public class InitializeData {
         loDetail.setPrnction("Tired");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("In need of sleep or rest; weary.");
-        loDetail.setTransLte("Manisia");
-        loDetail.setInfoxxxx("Manisia ak ed sika, I believe in you");
+        loDetail.setTransLte("Naksawan");
+        loDetail.setInfoxxxx("Im so tired in working, Naksawan ak lan mantrabaho");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -958,8 +958,8 @@ public class InitializeData {
         loDetail.setPrnction("Drop-in");
         loDetail.setWordType("Noun");
         loDetail.setDescript("To let go of something so that it enters something else");
-        loDetail.setTransLte("Naksawan");
-        loDetail.setInfoxxxx("Im so tired in working, Naksawan ak lan mantrabaho");
+        loDetail.setTransLte("Samar");
+        loDetail.setInfoxxxx("Drop in the station, Samar mo dia ed estasiyon");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -968,8 +968,8 @@ public class InitializeData {
         loDetail.setPrnction("Im-me-di-ate-ly");
         loDetail.setWordType("Adjective");
         loDetail.setDescript("Now or without waiting or thinking");
-        loDetail.setTransLte("Samar");
-        loDetail.setInfoxxxx("Drop in the station, Samar mo dia ed estasiyon");
+        loDetail.setTransLte("Tampol");
+        loDetail.setInfoxxxx("Go to the hospital immediately, Unla ka dia ed ospital ya tampol");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -978,8 +978,8 @@ public class InitializeData {
         loDetail.setPrnction("Leave-be-hind");
         loDetail.setWordType("Verb");
         loDetail.setDescript("To depart (from some place) without bringing someone or something");
-        loDetail.setTransLte("Tampol");
-        loDetail.setInfoxxxx("Go to the hospital immediately, Unla ka dia ed ospital tamtampol");
+        loDetail.setTransLte("Tilak");
+        loDetail.setInfoxxxx("I wont leave you behind, Agta ka itilak");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -988,8 +988,8 @@ public class InitializeData {
         loDetail.setPrnction("Re-peat");
         loDetail.setWordType("Verb");
         loDetail.setDescript("To say or tell people something more than once");
-        loDetail.setTransLte("Tilak");
-        loDetail.setInfoxxxx("I wont leave you behind, Agta ka itilak");
+        loDetail.setTransLte("Oliten, Lamet");
+        loDetail.setInfoxxxx("Repeat all the activities, Uliten lamet so gagawen");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -998,8 +998,8 @@ public class InitializeData {
         loDetail.setPrnction("To-peel");
         loDetail.setWordType("Verb");
         loDetail.setDescript("To remove the skin or rind from something");
-        loDetail.setTransLte("Oliten, Lamet");
-        loDetail.setInfoxxxx("Repeat all the activities, Uliten lamet so gagawen");
+        loDetail.setTransLte("Ubakan");
+        loDetail.setInfoxxxx("To peel the banana fruit, Ubakan may ponti");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
 
@@ -1008,8 +1008,8 @@ public class InitializeData {
         loDetail.setPrnction("Keep");
         loDetail.setWordType("Verb");
         loDetail.setDescript("Have or retain possession of.");
-        loDetail.setTransLte("Ubakan");
-        loDetail.setInfoxxxx("To peel the banana fruit, Ubakan may ponti");
+        loDetail.setTransLte("Isinop, Yatol, Yamot");
+        loDetail.setInfoxxxx("Promise to keep my gift, Pangakon ya iyatol mo yay regalok");
         loDetail.setDctnryTp(1);
         poList.add(loDetail);
     }
