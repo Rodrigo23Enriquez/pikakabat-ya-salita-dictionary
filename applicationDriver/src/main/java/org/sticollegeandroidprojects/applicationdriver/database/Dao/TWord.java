@@ -18,6 +18,7 @@ public interface TWord {
     @Query("SELECT * FROM Trivia_Words WHERE sWordName=:args")
     ETrivia GetTriviaWord(String args);
 
+    //Nested SQl Select Statement
     @Query("SELECT * FROM Trivia_Words " +
             "WHERE sWordIDxx =(SELECT sWordIDxx FROM Trivia_Words ORDER BY RANDOM() LIMIT 1)")
     LiveData<ETrivia> GetRandomTrivia();

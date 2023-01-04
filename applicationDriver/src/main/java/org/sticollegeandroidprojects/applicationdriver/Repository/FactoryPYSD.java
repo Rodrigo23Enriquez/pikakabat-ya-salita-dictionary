@@ -10,6 +10,8 @@ import java.util.List;
 
 public interface FactoryPYSD {
 
+
+    //Abstraction
     boolean Save(Object args);
     boolean SaveRecent(String args);
     boolean SaveWord(String args);

@@ -1,11 +1,10 @@
-package org.sticollegeandroidprojects.dictionary.ViewModel;
+package org.sticollegeandroidprojects.dictionary.Fragment.ViewModel;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.ViewModel;
 
 import org.sticollegeandroidprojects.applicationdriver.Repository.Trivia;
 import org.sticollegeandroidprojects.applicationdriver.database.Entity.ETrivia;

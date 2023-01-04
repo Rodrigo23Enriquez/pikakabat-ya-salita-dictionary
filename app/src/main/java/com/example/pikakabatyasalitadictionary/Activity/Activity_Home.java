@@ -46,6 +46,7 @@ public class Activity_Home extends AppCompatActivity {
                 R.id.nav_about)
                 .setOpenableLayout(drawer)
                 .build();
+
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_activity_home);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
@@ -54,12 +55,14 @@ public class Activity_Home extends AppCompatActivity {
             startActivity(new Intent(Activity_Home.this, Activity_Trivia.class));
             return false;
         });
+
         navigationView.getMenu().findItem(R.id.nav_pang2eng).setOnMenuItemClickListener(item -> {
             Intent loIntent = new Intent(Activity_Home.this, Activity_WordList.class);
             loIntent.putExtra("instance", 0);
             startActivity(loIntent);
             return false;
         });
+
         navigationView.getMenu().findItem(R.id.nav_eng2pang).setOnMenuItemClickListener(item -> {
             Intent loIntent = new Intent(Activity_Home.this, Activity_WordList.class);
             loIntent.putExtra("instance", 1);

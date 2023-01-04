@@ -1,9 +1,7 @@
 package org.sticollegeandroidprojects.dictionary.Fragment;
 
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -21,14 +19,10 @@ import android.view.ViewGroup;
 import com.google.android.material.tabs.TabLayout;
 
 import org.sticollegeandroidprojects.applicationdriver.Etc.Dialog.MessageBox;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.BWord;
-import org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterBookmark;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.ViewModel.VMBookmarks;
-
-import java.util.List;
+import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMBookmarks;
 
 public class Fragment_Bookmarks extends Fragment {
     private static final String TAG = Fragment_Bookmarks.class.getSimpleName();

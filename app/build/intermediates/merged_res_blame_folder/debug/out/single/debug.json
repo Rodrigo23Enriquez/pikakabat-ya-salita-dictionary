@@ -1,214 +1,218 @@
 [
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_share.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_share.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_more.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_dictionary.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_dictionary.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_search_icon.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\search_icon.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_menu_gallery.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_menu_gallery.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_side_nav_bar.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/side_nav_bar.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_about.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/navigation_mobile_navigation.xml.flat",
         "source": "com.example.pikakabatyasalitadictionary.app-main-49:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_menu_gallery.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_activity_home.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/activity_home.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_nav_header_activity_home.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/nav_header_activity_home.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_content_activity_home.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\content_activity_home.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\menu\\menu.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_menu_camera.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_menu_camera.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_more.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_more.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_rate.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_rate.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_message.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_message.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_triviaoftheday.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_triviaoftheday.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_fragment_dashboard.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/fragment_dashboard.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/xml_backup_rules.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_search_background.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\search_background.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_home_black_24dp.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_app_bar_activity_home.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\app_bar_activity_home.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/menu_activity_main_drawer.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/menu/activity_main_drawer.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_recent.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_recent.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_app_bar_activity_home.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/app_bar_activity_home.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_home.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_recent.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_recent.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_menu.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\menu.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_baseline_search_24.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_savewords.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_savewords.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_content_activity_home.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/content_activity_home.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_btnsearchbck.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\btnsearchbck.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_menu.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/menu.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_message.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_message.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/menu_menu.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/menu/menu.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_baseline_home_24.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_search_background.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/search_background.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_baseline_home_24.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/layout_fragment_about.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/fragment_about.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_menu_slideshow.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_menu_slideshow.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_nav_header_activity_home.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\nav_header_activity_home.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_rate.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_rate.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_dictionary.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_dictionary.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_triviaoftheday.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_triviaoftheday.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_search_icon.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/search_icon.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_ic_about.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/ic_about.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\menu_activity__home.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\menu\\activity__home.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/menu_activity__home.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/menu/activity__home.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_share.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-debug-48:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/drawable_btnsearchbck.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/drawable/btnsearchbck.xml"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\drawable_ic_savewords.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\drawable\\ic_savewords.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.pikakabatyasalitadictionary.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.pikakabatyasalitadictionary.app-debug-48:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-merged_res-47:\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_about.xml"
     }
 ]

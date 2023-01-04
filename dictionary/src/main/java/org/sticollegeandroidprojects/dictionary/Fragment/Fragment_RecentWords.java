@@ -20,14 +20,10 @@ import android.widget.Toast;
 import com.google.android.material.tabs.TabLayout;
 
 import org.sticollegeandroidprojects.applicationdriver.Etc.Dialog.MessageBox;
-import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterRecent;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.ViewModel.VMBookmarks;
-import org.sticollegeandroidprojects.dictionary.ViewModel.VMRecent;
-
-import java.util.List;
+import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMRecent;
 
 public class Fragment_RecentWords extends Fragment {
     private static final String TAG = Fragment_RecentWords.class.getSimpleName();

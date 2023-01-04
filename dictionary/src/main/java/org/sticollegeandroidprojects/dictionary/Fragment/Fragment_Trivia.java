@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.ViewModel.VMTrivia;
+import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMTrivia;
 
 public class Fragment_Trivia extends Fragment {
 
