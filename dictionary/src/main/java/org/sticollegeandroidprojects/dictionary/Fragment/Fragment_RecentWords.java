@@ -23,7 +23,7 @@ import org.sticollegeandroidprojects.applicationdriver.Etc.Dialog.MessageBox;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterRecent;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMRecent;
+import org.sticollegeandroidprojects.dictionary.ViewModel.VMRecent;
 
 public class Fragment_RecentWords extends Fragment {
     private static final String TAG = Fragment_RecentWords.class.getSimpleName();

@@ -13,6 +13,8 @@ public class InitializeData {
     private ETrivia loTrivia;
 
     public void InitializeWords(){
+
+        //magmula dito
         loDetail = new EDictionaryWords();
         loDetail.setWordName("Aalaen");
         loDetail.setPrnction("A-a-la-en");
@@ -22,6 +24,9 @@ public class InitializeData {
         loDetail.setInfoxxxx("Aalaen mo may salming ko, You are taking my glasses");
         loDetail.setDctnryTp(0);
         poList.add(loDetail);
+        //Hanggang dito, isang record na ng word
+        //any changes na gusto mo gawin ilagay mo sa setter
+        //kung gusto mo tanggalin ung record tanggalin mo lang ung ganiong particular na code tapos re-install app para magrefresh
 
         loDetail = new EDictionaryWords();
         loDetail.setWordName("Aaralen");

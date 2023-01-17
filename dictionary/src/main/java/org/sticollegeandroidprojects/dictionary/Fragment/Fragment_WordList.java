@@ -1,8 +1,8 @@
 package org.sticollegeandroidprojects.dictionary.Fragment;
 
-import androidx.core.widget.NestedScrollView;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,20 +11,22 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.ImageButton;
-import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.textfield.TextInputEditText;
 
-import org.sticollegeandroidprojects.dictionary.Adapter.AdapterDescriptionInfos;
+import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
+import org.sticollegeandroidprojects.dictionary.Adapter.AdapterWords;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMWordList;
+import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
 
 import java.util.ArrayList;
 
@@ -35,12 +37,8 @@ public class Fragment_WordList extends Fragment {
 
     private View view;
     private TabLayout tabLayout;
-    private AutoCompleteTextView txtSearch;
+    private TextInputEditText txtSearch;
     private RecyclerView recyclerView;
-    private NestedScrollView ncvDescript;
-    private TextView lblWord, lblType, lblPrnc, lblDesc, lblNoRcd;
-    private ImageButton btnSave, btnListen;
-    private RecyclerView rcvTranslate, rcvSamples;
 
     public static Fragment_WordList newInstance() {
         return new Fragment_WordList();
@@ -53,118 +51,84 @@ public class Fragment_WordList extends Fragment {
         view = inflater.inflate(R.layout.fragment_word_list, container, false);
 
         InitWidgets();
-        int lnType = getArguments().getInt("instance");
         //parameter has been set to empty string in order to retrieve all values from database.
         //words retrieve will be use for searching using autocomplete textview.
-        mViewModel.GetWordsList(lnType).observe(requireActivity(), eDictionaryWords -> {
-            try{
-                ArrayList<String> loList = new ArrayList<>();
-                for (int x = 0; x < eDictionaryWords.size(); x++){
-                    loList.add(eDictionaryWords.get(x).getWordName());
-                }
+        tabLayout.addTab(tabLayout.newTab().setText("Pangasinan - English"));
+        tabLayout.addTab(tabLayout.newTab().setText("English - Pangasinan"));
+        initWordList(0);
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                initWordList(tab.getPosition());
+            }
 
-                ArrayAdapter<String> loAdapter = new ArrayAdapter<>(requireActivity(), android.R.layout.simple_spinner_dropdown_item, loList.toArray(new String[0]));
-                txtSearch.setAdapter(loAdapter);
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
 
-                txtSearch.setOnItemClickListener((parent, view, position, id) -> {
-                    String lsSelectd = txtSearch.getText().toString();
-                    for(int x = 0; x < eDictionaryWords.size(); x++){
-                        if(lsSelectd.equalsIgnoreCase(eDictionaryWords.get(x).getWordName())){
-                            lsSelectd = eDictionaryWords.get(x).getWordIDxx();
-                        }
-                    }
-                    lblNoRcd.setVisibility(View.GONE);
+            }
 
-                    mViewModel.SaveRecent(lsSelectd, new VMWordList.OnSaveWordListener() {
-                        @Override
-                        public void OnSave(String args) {
-                            Log.d(TAG, "a new recent has been saved/updated.");
-                        }
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
 
-                        @Override
-                        public void OnFailed(String message) {
-                            Log.e(TAG, "unable to save new recent search. " + message);
-                        }
-                    });
-                    txtSearch.setText("");
-                    txtSearch.clearFocus();
-                });
-            } catch (Exception e){
-                e.printStackTrace();
             }
         });
-
-        mViewModel.GetRecentList(lnType).observe(requireActivity(), recentWords -> {
-            try{
-                tabLayout.removeAllTabs();
-                lblNoRcd.setVisibility(View.GONE);
-                for(int x = 0; x < recentWords.size(); x++){
-                    tabLayout.addTab(tabLayout.newTab().setText(recentWords.get(x).sWordName));
-                }
-
-                tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-                    @Override
-                    public void onTabSelected(TabLayout.Tab tab) {
-                        PreviewResult(recentWords.get(tab.getPosition()).sWordIDxx);
-                    }
-
-                    @Override
-                    public void onTabUnselected(TabLayout.Tab tab) {
-
-                    }
-
-                    @Override
-                    public void onTabReselected(TabLayout.Tab tab) {
-
-                    }
-                });
-            } catch (Exception e){
-                e.printStackTrace();
-            }
-        });
-
 
         return view;
     }
 
-    private void InitWidgets(){
+    private void InitWidgets() {
         tabLayout = view.findViewById(R.id.tablayout);
         txtSearch = view.findViewById(R.id.txtSearch);
         recyclerView = view.findViewById(R.id.recyclerview);
-        ncvDescript = view.findViewById(R.id.ncvDescription);
-
-        lblWord = view.findViewById(R.id.lblWord);
-        lblType = view.findViewById(R.id.lblWordType);
-        lblPrnc = view.findViewById(R.id.lblPrnction);
-        lblDesc = view.findViewById(R.id.lblWordDesc);
-        lblNoRcd = view.findViewById(R.id.lblNoRecord);
-        btnSave = view.findViewById(R.id.btnBookMark);
-        btnListen = view.findViewById(R.id.btnSpeech);
-        rcvTranslate = view.findViewById(R.id.rcv_translate);
-        rcvSamples = view.findViewById(R.id.rcv_samples);
+        LinearLayoutManager loLayout = new LinearLayoutManager(requireActivity());
+        loLayout.setOrientation(RecyclerView.VERTICAL);
+        recyclerView.setLayoutManager(loLayout);
     }
 
-    private void PreviewResult(String args){
-        mViewModel.GetWordDetail(args).observe(getViewLifecycleOwner(), word -> {
+    private void initWordList(int args){
+        mViewModel.GetWordsList(args).observe(requireActivity(), eDictionaryWords -> {
             try{
-                lblWord.setText(word.getWordName());
-                lblType.setText(word.getWordType());
-                lblPrnc.setText(word.getPrnction());
-                lblDesc.setText(word.getDescript());
-                String[] lsTranslate = word.getTransLte().split(", ");
-                String[] lsExamples = word.getInfoxxxx().split(", ");
+                AdapterWords loAdapter = new AdapterWords(eDictionaryWords, args1 -> {
+                    saveRecent(args1);
+                    Intent loIntent = new Intent(requireActivity(), Activity_WordList.class);
+                    loIntent.putExtra("sWordIDxx", args1);
+                    startActivity(loIntent);
+                });
+                recyclerView.setAdapter(loAdapter);
 
-                LinearLayoutManager loLayout = new LinearLayoutManager(requireActivity());
-                loLayout.setOrientation(RecyclerView.VERTICAL);
-                rcvTranslate.setLayoutManager(loLayout);
-                rcvTranslate.setAdapter(new AdapterDescriptionInfos(lsTranslate));
+                txtSearch.addTextChangedListener(new TextWatcher() {
+                    @Override
+                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-                loLayout = new LinearLayoutManager(requireActivity());
-                loLayout.setOrientation(RecyclerView.VERTICAL);
-                rcvSamples.setLayoutManager(loLayout);
-                rcvSamples.setAdapter(new AdapterDescriptionInfos(lsExamples));
+                    }
+
+                    @Override
+                    public void onTextChanged(CharSequence s, int start, int before, int count) {
+                        loAdapter.getSearchFilter().filter(s.toString());
+                        loAdapter.notifyDataSetChanged();
+                    }
+
+                    @Override
+                    public void afterTextChanged(Editable s) {
+
+                    }
+                });
             } catch (Exception e){
                 e.printStackTrace();
+            }
+        });
+    }
+
+    private void saveRecent(String args){
+        mViewModel.SaveRecent(args, new VMWordList.OnSaveWordListener() {
+            @Override
+            public void OnSave(String args) {
+                Log.d(TAG, "a new recent has been saved/updated.");
+            }
+
+            @Override
+            public void OnFailed(String message) {
+                Log.e(TAG, "unable to save new recent search. " + message);
             }
         });
     }

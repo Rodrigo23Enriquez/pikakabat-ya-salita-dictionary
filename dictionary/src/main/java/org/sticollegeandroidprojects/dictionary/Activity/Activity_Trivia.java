@@ -14,7 +14,7 @@ import com.google.android.material.button.MaterialButton;
 import com.squareup.picasso.Picasso;
 
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMTrivia;
+import org.sticollegeandroidprojects.dictionary.ViewModel.VMTrivia;
 
 public class Activity_Trivia extends AppCompatActivity {
 

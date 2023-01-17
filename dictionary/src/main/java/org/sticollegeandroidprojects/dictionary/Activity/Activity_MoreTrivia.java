@@ -13,7 +13,7 @@ import android.view.MenuItem;
 
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterTrivia;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMTrivia;
+import org.sticollegeandroidprojects.dictionary.ViewModel.VMTrivia;
 
 public class Activity_MoreTrivia extends AppCompatActivity {
 
