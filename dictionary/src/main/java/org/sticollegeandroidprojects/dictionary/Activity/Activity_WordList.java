@@ -34,6 +34,8 @@ import java.util.Locale;
 /**
  *  Handles all the searching and listing of words listing in the dictionary
  */
+
+//Controller
 public class Activity_WordList extends AppCompatActivity {
     private static final String TAG = Activity_WordList.class.getSimpleName();
 

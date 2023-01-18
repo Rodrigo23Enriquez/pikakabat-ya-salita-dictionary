@@ -7,6 +7,7 @@
     android:theme="@style/Theme.PikakabatYaSalitaDictionary"
     tools:context=".Activity.Activity_WordList">
 
+<!--    GUI Code-->
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"

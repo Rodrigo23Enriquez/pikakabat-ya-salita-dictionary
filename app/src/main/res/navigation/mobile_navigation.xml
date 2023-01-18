@@ -30,4 +30,10 @@
         android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_About"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="org.sticollegeandroidprojects.dictionary.Fragment.Fragment_WordList"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_word_list" />
 </navigation>

@@ -21,6 +21,7 @@ import org.sticollegeandroidprojects.applicationdriver.Etc.Dialog.MessageBox;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia;
 
+
 public class Activity_Home extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -41,6 +42,7 @@ public class Activity_Home extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home,
+                R.id.nav_search,
                 R.id.nav_recent,
                 R.id.nav_bookmark,
                 R.id.nav_about)
