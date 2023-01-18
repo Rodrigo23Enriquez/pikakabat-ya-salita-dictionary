@@ -65,22 +65,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription"
-            android:exported="false"
-            android:screenOrientation="userPortrait" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
-            android:exported="false"
-            android:screenOrientation="userPortrait" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList"
             android:exported="false"
             android:screenOrientation="userPortrait" >

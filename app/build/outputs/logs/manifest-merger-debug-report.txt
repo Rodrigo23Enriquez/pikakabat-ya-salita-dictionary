@@ -6,7 +6,7 @@ INJECTED from C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidMa
 INJECTED from C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Rodz\.gradle\caches\transforms-3\98f2e3f01cb1b33b1c6ac055c4816f75\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Rodz\.gradle\caches\transforms-3\88442b52181f3fa4317809c14ce9014b\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-52:12
+MERGED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-36:12
 MERGED from [:applicationDriver] C:\Users\Rodz\Documents\Pikakabay Ya Salita\applicationDriver\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Rodz\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Rodz\.gradle\caches\transforms-3\229612c218d9fe79705dc19c7f400585\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -99,8 +99,8 @@ ADDED from C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManif
 		ADDED from C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:6:22-76
 application
 ADDED from C:\Users\Rodz\Documents\Pikakabay Ya Salita\app\src\main\AndroidManifest.xml:8:5-42:19
-MERGED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-50:19
-MERGED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-50:19
+MERGED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-34:19
+MERGED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-34:19
 MERGED from [:applicationDriver] C:\Users\Rodz\Documents\Pikakabay Ya Salita\applicationDriver\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-20
 MERGED from [:applicationDriver] C:\Users\Rodz\Documents\Pikakabay Ya Salita\applicationDriver\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Rodz\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
@@ -347,30 +347,14 @@ ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\
 		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
 	android:name
 		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-93
-activity#org.sticollegeandroidprojects.dictionary.Activity.ActivityWordDescription
+activity#org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList
 ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
 	android:screenOrientation
 		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-53
 	android:exported
 		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-101
-activity#org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch
-ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-41:20
-	android:screenOrientation
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-53
-	android:exported
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
-	android:name
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-92
-activity#org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList
-ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-49:20
-	android:screenOrientation
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-53
-	android:exported
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
-	android:name
-		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-95
+		ADDED from [:dictionary] C:\Users\Rodz\Documents\Pikakabay Ya Salita\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-95
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Rodz\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities

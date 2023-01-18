@@ -24,7 +24,7 @@ import com.google.android.material.tabs.TabLayout;
 import org.sticollegeandroidprojects.applicationdriver.database.Dao.RWord;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterDescriptionInfos;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMWordList;
+import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
 
 import java.util.ArrayList;
 import java.util.List;

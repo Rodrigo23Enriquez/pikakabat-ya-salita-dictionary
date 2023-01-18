@@ -22,7 +22,7 @@ import org.sticollegeandroidprojects.applicationdriver.Etc.Dialog.MessageBox;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 import org.sticollegeandroidprojects.dictionary.Adapter.AdapterBookmark;
 import org.sticollegeandroidprojects.dictionary.R;
-import org.sticollegeandroidprojects.dictionary.Fragment.ViewModel.VMBookmarks;
+import org.sticollegeandroidprojects.dictionary.ViewModel.VMBookmarks;
 
 public class Fragment_Bookmarks extends Fragment {
     private static final String TAG = Fragment_Bookmarks.class.getSimpleName();

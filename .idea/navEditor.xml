@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-298" />
-                            <option name="y" value="26" />
+                            <option name="x" value="-84" />
+                            <option name="y" value="-336" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -25,20 +25,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="298" />
-                            <option name="y" value="402" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="nav_eng2pang">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-242" />
-                            <option name="y" value="384" />
+                            <option name="x" value="225" />
+                            <option name="y" value="89" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -49,29 +37,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-32" />
-                            <option name="y" value="2" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_nav_home_to_nav_trivia">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="nav_pang2eng">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="433" />
-                            <option name="y" value="42" />
+                            <option name="x" value="204" />
+                            <option name="y" value="-326" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -82,20 +49,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="214" />
-                            <option name="y" value="2" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="nav_trivia">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="17" />
-                            <option name="y" value="416" />
+                            <option name="x" value="-88" />
+                            <option name="y" value="90" />
                           </Point>
                         </option>
                       </LayoutPositions>

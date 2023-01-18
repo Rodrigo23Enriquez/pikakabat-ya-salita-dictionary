@@ -44,6 +44,7 @@
                 android:drawableTint="@color/white"
                 android:drawablePadding="5dp"
                 android:maxLines="1"
+                android:completionThreshold="1"
                 android:padding="15dp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
