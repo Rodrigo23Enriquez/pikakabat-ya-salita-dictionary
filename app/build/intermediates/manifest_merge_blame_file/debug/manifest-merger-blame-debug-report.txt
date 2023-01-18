@@ -133,8 +133,8 @@
 75        </activity>
 76        <activity
 76-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-41:20
-77            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
-77-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-92
+77            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_Search"
+77-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-93
 78            android:exported="false"
 78-->[:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
 79            android:screenOrientation="userPortrait" >

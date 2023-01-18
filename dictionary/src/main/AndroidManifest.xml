@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activity.ActivitySearch"
+            android:name=".Activity.Activity_Search"
             android:screenOrientation="userPortrait"
             android:exported="false">
             <meta-data

@@ -92,6 +92,7 @@ public class Fragment_WordList extends Fragment {
                     saveRecent(args1);
                     Intent loIntent = new Intent(requireActivity(), Activity_WordList.class);
                     loIntent.putExtra("sWordIDxx", args1);
+                    loIntent.putExtra("instance", args);
                     startActivity(loIntent);
                 });
                 recyclerView.setAdapter(loAdapter);

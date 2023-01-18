@@ -355,14 +355,14 @@ ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita
 		ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-101
-activity#org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch
+activity#org.sticollegeandroidprojects.dictionary.Activity.Activity_Search
 ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-41:20
 	android:screenOrientation
 		ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-53
 	android:exported
 		ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-92
+		ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-93
 activity#org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList
 ADDED from [:dictionary] C:\Users\Mike\AndroidStudioProjects\pikakabat-ya-salita-dictionary\dictionary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-49:20
 	android:screenOrientation

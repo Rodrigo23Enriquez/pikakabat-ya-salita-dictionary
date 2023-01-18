@@ -4,10 +4,6 @@
         "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:/layout/activity_home.xml",
-        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/activity_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\activity_home.xml",
         "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\activity_home.xml"
     },
@@ -18,6 +14,10 @@
     {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\fragment_about.xml",
         "source": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-main-49:\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:/layout/content_activity_home.xml",
+        "source": "com.example.pikakabatyasalitadictionary.app-main-49:/layout/content_activity_home.xml"
     },
     {
         "merged": "C:\\Users\\Mike\\.gradle\\daemon\\7.4\\com.example.pikakabatyasalitadictionary.app-mergeDebugResources-46:\\layout\\nav_header_activity_home.xml",

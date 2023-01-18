@@ -74,7 +74,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="org.sticollegeandroidprojects.dictionary.Activity.ActivitySearch"
+            android:name="org.sticollegeandroidprojects.dictionary.Activity.Activity_Search"
             android:exported="false"
             android:screenOrientation="userPortrait" >
             <meta-data

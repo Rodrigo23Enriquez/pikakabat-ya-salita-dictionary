@@ -30,4 +30,5 @@
         android:name="com.example.pikakabatyasalitadictionary.Fragment.Fragment_About"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
+
 </navigation>

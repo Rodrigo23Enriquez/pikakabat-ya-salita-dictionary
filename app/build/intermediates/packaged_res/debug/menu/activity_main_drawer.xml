@@ -17,6 +17,11 @@
         <item android:title="@string/menu_dictionary">
             <menu>
                 <item
+                    android:id="@+id/nav_search"
+                    android:icon="@drawable/ic_baseline_search"
+                    android:title="@string/menu_wordList" />
+
+                <item
                     android:id="@+id/nav_pang2eng"
                     android:icon="@drawable/ic_baseline_dictionary"
                     android:title="@string/menu_pang2eng" />

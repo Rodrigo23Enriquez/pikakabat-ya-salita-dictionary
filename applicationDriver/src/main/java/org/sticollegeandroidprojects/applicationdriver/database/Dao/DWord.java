@@ -45,10 +45,10 @@ public interface DWord {
     @Query("SELECT * FROM Dictionary_Words WHERE sWordIDxx=:args")
     LiveData<EDictionaryWords> GetWordDetail(String args);
 
-    @Query("SELECT * FROM Dictionary_Words WHERE nDctnryTp =:args")
+    @Query("SELECT * FROM Dictionary_Words WHERE nDctnryTp =:args ORDER BY sWordName ASC")
     LiveData<List<EDictionaryWords>> GetWordList(int args);
 
-    @Query("SELECT * FROM Bookmarked_Words WHERE sWordIDxx =:args")
+    @Query("SELECT * FROM Bookmarked_Words WHERE sWordIDxx =:args ORDER BY dTimeStmp")
     LiveData<BWord.Bookmark> GetBookmarkWord(String args);
 
     @Query("SELECT " +

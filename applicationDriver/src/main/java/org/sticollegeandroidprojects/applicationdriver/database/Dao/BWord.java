@@ -32,7 +32,7 @@ public interface BWord {
     @Query("SELECT * FROM Recent_Words WHERE sWordIDxx=:args")
     ERecentWord GetRecent(String args);
 
-    @Query("SELECT * FROM Bookmarked_Words WHERE sWordIDxx=:args")
+    @Query("SELECT * FROM Bookmarked_Words WHERE sWordIDxx=:args ORDER BY dTimeStmp")
     EBookmarkWord GetBookmark(String args);
 
     @Query("SELECT " +

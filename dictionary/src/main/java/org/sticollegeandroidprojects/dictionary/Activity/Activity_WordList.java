@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -26,6 +27,7 @@ import org.sticollegeandroidprojects.dictionary.Adapter.AdapterDescriptionInfos;
 import org.sticollegeandroidprojects.dictionary.R;
 import org.sticollegeandroidprojects.dictionary.ViewModel.VMWordList;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -250,7 +252,11 @@ public class Activity_WordList extends AppCompatActivity {
     }
 
     private void SpeakTheWord(String args){
-        poSpeech.speak(args, TextToSpeech.QUEUE_FLUSH, null);
+        if(lnType == 0) {
+           playVoiceRecord(args);
+        } else {
+            poSpeech.speak(args, TextToSpeech.QUEUE_FLUSH, null);
+        }
     }
 
     @Override
@@ -268,5 +274,31 @@ public class Activity_WordList extends AppCompatActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void playVoiceRecord(String args){
+        try {
+            String lsResName = args.toLowerCase();
+//            int lnResID = getResources().getIdentifier(lsResName, "raw", "org.sticollegeandroidprojects.dictionary");
+            int lnResID = getId(lsResName, R.raw.class);
+            if(lnResID == 0){
+                Toast.makeText(Activity_WordList.this, "No available speech yet.", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            MediaPlayer music = MediaPlayer.create(Activity_WordList.this, lnResID);
+            music.start();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    private int getId(String resourceName, Class<?> c) {
+        try {
+            Field idField = c.getDeclaredField(resourceName);
+            return idField.getInt(idField);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 0;
+        }
     }
 }

@@ -3,7 +3,6 @@ package com.example.pikakabatyasalitadictionary.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 
 import com.example.pikakabatyasalitadictionary.R;
 import com.google.android.material.navigation.NavigationView;
@@ -18,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.pikakabatyasalitadictionary.databinding.ActivityHomeBinding;
 
 import org.sticollegeandroidprojects.applicationdriver.Etc.Dialog.MessageBox;
+import org.sticollegeandroidprojects.dictionary.Activity.Activity_Search;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_WordList;
 import org.sticollegeandroidprojects.dictionary.Activity.Activity_Trivia;
 
@@ -42,7 +42,6 @@ public class Activity_Home extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home,
-                R.id.nav_search,
                 R.id.nav_recent,
                 R.id.nav_bookmark,
                 R.id.nav_about)
@@ -55,6 +54,12 @@ public class Activity_Home extends AppCompatActivity {
 
         navigationView.getMenu().findItem(R.id.nav_trivia).setOnMenuItemClickListener(item -> {
             startActivity(new Intent(Activity_Home.this, Activity_Trivia.class));
+            return false;
+        });
+
+        navigationView.getMenu().findItem(R.id.nav_search).setOnMenuItemClickListener(item -> {
+            Intent loIntent = new Intent(Activity_Home.this, Activity_Search.class);
+            startActivity(loIntent);
             return false;
         });
 

@@ -29,6 +29,9 @@ public final class FragmentDashboardBinding implements ViewBinding {
   public final MaterialButton btnSearchP2E;
 
   @NonNull
+  public final MaterialButton btnWordList;
+
+  @NonNull
   public final CardView cvTrivia;
 
   @NonNull
@@ -54,12 +57,13 @@ public final class FragmentDashboardBinding implements ViewBinding {
 
   private FragmentDashboardBinding(@NonNull NestedScrollView rootView,
       @NonNull MaterialButton btnSearchE2P, @NonNull MaterialButton btnSearchP2E,
-      @NonNull CardView cvTrivia, @NonNull TextView dic, @NonNull ImageView imageView2,
-      @NonNull ImageView imgTrivia, @NonNull TextView lblTrivia, @NonNull TextView lblTriviaDesc,
-      @NonNull TextView lblTriviaWord, @NonNull TextView pangeng) {
+      @NonNull MaterialButton btnWordList, @NonNull CardView cvTrivia, @NonNull TextView dic,
+      @NonNull ImageView imageView2, @NonNull ImageView imgTrivia, @NonNull TextView lblTrivia,
+      @NonNull TextView lblTriviaDesc, @NonNull TextView lblTriviaWord, @NonNull TextView pangeng) {
     this.rootView = rootView;
     this.btnSearchE2P = btnSearchE2P;
     this.btnSearchP2E = btnSearchP2E;
+    this.btnWordList = btnWordList;
     this.cvTrivia = cvTrivia;
     this.dic = dic;
     this.imageView2 = imageView2;
@@ -106,6 +110,12 @@ public final class FragmentDashboardBinding implements ViewBinding {
       id = R.id.btnSearchP2E;
       MaterialButton btnSearchP2E = ViewBindings.findChildViewById(rootView, id);
       if (btnSearchP2E == null) {
+        break missingId;
+      }
+
+      id = R.id.btnWordList;
+      MaterialButton btnWordList = ViewBindings.findChildViewById(rootView, id);
+      if (btnWordList == null) {
         break missingId;
       }
 
@@ -158,7 +168,8 @@ public final class FragmentDashboardBinding implements ViewBinding {
       }
 
       return new FragmentDashboardBinding((NestedScrollView) rootView, btnSearchE2P, btnSearchP2E,
-          cvTrivia, dic, imageView2, imgTrivia, lblTrivia, lblTriviaDesc, lblTriviaWord, pangeng);
+          btnWordList, cvTrivia, dic, imageView2, imgTrivia, lblTrivia, lblTriviaDesc,
+          lblTriviaWord, pangeng);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

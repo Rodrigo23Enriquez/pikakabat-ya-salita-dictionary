@@ -81,7 +81,7 @@ public class Dictionary implements FactoryPYSD{
             poDao.Update(loDetail);
 
             message = "Word is already saved!";
-            return false;
+            return true;
         } catch (Exception e){
             e.printStackTrace();
             message = e.getMessage();
